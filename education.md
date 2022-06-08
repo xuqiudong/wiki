@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-06-07T06:03:34.460Z
+date: 2022-06-08T03:41:59.319Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-26T03:44:29.072Z
@@ -63,3 +63,8 @@ dateCreated: 2022-05-26T03:44:29.072Z
  - C++程序设计   63分
  - Java语言程序设计   70分
     
+    
+    
+    
+    
+    ![2.png](/imgs/2.png)
