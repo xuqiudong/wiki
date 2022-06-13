@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-06-13T06:31:39.293Z
+date: 2022-06-13T06:38:35.197Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -63,8 +63,8 @@ dateCreated: 2022-06-13T06:00:45.902Z
  - C++程序设计   63分
  - Java语言程序设计   70分
     
-    
-    
-    
+### 13 2022年6月 学位英语  
+  > 6月11日参加学位英语考试  
+ 
+准考证图片： 
 ![4.png](/imgs/4.png)    
-![2.png](/imgs/2.png)
