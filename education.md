@@ -2,10 +2,10 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-06-08T03:53:57.426Z
+date: 2022-06-13T06:31:25.589Z
 tags: 
 editor: markdown
-dateCreated: 2022-05-26T03:44:29.072Z
+dateCreated: 2022-06-13T06:00:45.902Z
 ---
 
 # 我的学习经历
@@ -13,9 +13,9 @@ dateCreated: 2022-05-26T03:44:29.072Z
      真的特别的羞愧，连一个大专都没好好读完，就结业了。
      
 ---
- 1. [高职扩招](/学习经历/高职)
- 2. [自考本科](/学习经历/自考)
- 3. [软考架构师](/学习经历/软考)
+ 1. [高职扩招](/education/college)
+ 2. [自考本科](/education/self-taught)
+ 3. [软考架构师](/education/software-exam)
 
 ---
 ## 时间轴
