@@ -2,13 +2,13 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2022-06-15T00:44:21.188Z
+date: 2022-06-15T00:45:12.885Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
 ---
 
-# 我的家用linux服务器
+> 我的家用linux服务器
 
 ## 目录
 
