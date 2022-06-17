@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2022-06-15T00:46:02.832Z
+date: 2022-06-17T08:32:31.708Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
@@ -23,3 +23,5 @@ dateCreated: 2022-06-13T06:00:53.930Z
   - nginx代理了是9000上的端口
   - portainer 运行在docker上
 3. wiki.js：   http://xuqiudong.tpddns.cn:3000/  
+4. nextcloud 个人云盘，同步盘 http://xuqiudong.tpddns.cn:83/  
+ - 基于php 运行在7000端口，被nginx反向代理 
