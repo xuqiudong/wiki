@@ -2,10 +2,10 @@
 title: 软考:架构师
 description: 2022年4月，考虑是否考一个软考证书
 published: true
-date: 2022-06-02T03:55:45.224Z
+date: 2022-06-28T00:33:18.164Z
 tags: 学历
 editor: markdown
-dateCreated: 2022-05-26T05:43:34.366Z
+dateCreated: 2022-06-13T06:01:06.506Z
 ---
 
 ## 软考：架构师
@@ -19,3 +19,4 @@ dateCreated: 2022-05-26T05:43:34.366Z
 1.  先看看书，今年（2022年）的主要目的还是先从中澳毕业，然后把合工大的自考考完。
 2. 如果有余力，就考一次，主力还是放在明年考。
   
+- [架构风格汇总](/education/software-exam/architecture-style-summary)  
