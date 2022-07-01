@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-07-01T08:05:53.892Z
+date: 2022-07-01T08:06:17.716Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -21,6 +21,8 @@ dateCreated: 2022-06-13T06:00:45.902Z
  - 2022-10  近代史
  - 2022-10  英语二
  - 2022-10 操作系统
+ 
+ - 2022-11 尝试下架构师软考
      
      
 ---
