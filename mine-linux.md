@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2022-07-05T02:04:59.327Z
+date: 2022-07-05T02:11:01.141Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
@@ -29,7 +29,10 @@ dateCreated: 2022-06-13T06:00:53.930Z
 
 ## xuqiudong.cn域名和子域名的安排
 > 主要是因为电信不开放 80和443端口。
-1. 博客首页：xuqiudong.cn 重定向到 https://xuqiudong.cn:88
-2. wiki首页:wiki.xuqiudong.cn 重定向到 https://wiki.xuqiudong.cn:88
-3. 导航：nav.xuqiudong.cn 重定向到 https://nav.xuqiudong.cn:88
-4. 微信：wechat.xuqiudong.cn 重定向到https://wechat.xuqiudong.cn:88
+1. 博客首页：xuqiudong.cn 重定向到 https://blog.xuqiudong.cn:88
+2. wiki首页: https://wiki.xuqiudong.cn:88
+3. 导航： https://nav.xuqiudong.cn:88
+4. 微信： https://wechat.xuqiudong.cn:88
+5. 附件：https://attachment.xuqiudong.cn:88
+6. 后台：https://console.xuqiudong.cn:88
+7. 在线日志查看：https://readlog.xuqiudong.cn:88
