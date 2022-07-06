@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-07-06T08:20:29.265Z
+date: 2022-07-06T08:23:15.625Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -80,4 +80,4 @@ dateCreated: 2022-06-13T06:00:45.902Z
   > 6月11日参加学位英语考试  
  
 ### 14 2022年7月 学位英语考试通过  
-     ![学位英语证书](http://xuqiudong.tpddns.cn:83/s/LqLy8ndN5BrnK7b/preview)
+    ![学位英语证书.png](/学位英语证书.png)
