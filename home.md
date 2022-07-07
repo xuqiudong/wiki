@@ -2,7 +2,7 @@
 title: Home
 description: 这是首页
 published: true
-date: 2022-06-13T06:32:54.604Z
+date: 2022-07-07T06:56:34.239Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -15,4 +15,6 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 ----
 
+## 我的导航
+[我自己导航我自己](https://nav.xuqiudong.cn)
 1. icon 图标 [fontawesome](https://fontawesome.com/v4/icons/)
