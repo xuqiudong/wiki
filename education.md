@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-07-11T09:24:02.984Z
+date: 2022-07-11T09:24:15.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -16,7 +16,7 @@ dateCreated: 2022-06-13T06:00:45.902Z
      
  ----
  
- [英文例句](/education/english-sentence)
+ 1.  [英文例句](/education/english-sentence)
  
  ## 近期安排
  
