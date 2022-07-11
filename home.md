@@ -2,7 +2,7 @@
 title: Home
 description: 这是首页
 published: true
-date: 2022-07-11T02:11:59.464Z
+date: 2022-07-11T02:14:37.184Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -16,8 +16,8 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 ## wiki内的导航
 
-- [我的linux](/mine-linux/mine-linux)
-- [学习经历](/education/home)
+- [我的linux](/mine-linux)
+- [学习经历](/education)
 
 ## 我的导航
 [我自己导航我自己](https://nav.xuqiudong.cn:88)
