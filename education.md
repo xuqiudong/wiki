@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-07-11T06:41:29.664Z
+date: 2022-07-11T09:24:02.984Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -15,6 +15,9 @@ dateCreated: 2022-06-13T06:00:45.902Z
      知耻而近乎勇，见兔而顾犬，未为晚也！
      
  ----
+ 
+ [英文例句](/education/english-sentence)
+ 
  ## 近期安排
  
  - 2022-10  数据结构
