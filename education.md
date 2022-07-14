@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-07-11T09:24:15.000Z
+date: 2022-07-14T01:45:56.899Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-13T06:00:45.902Z
 
 # 我的学习经历
  
-     真的特别的羞愧，连一个大专都没好好读完，就结业了。
+     真的特别的羞愧，没有在学校好好学习过。
      
      知耻而近乎勇，见兔而顾犬，未为晚也！
      
