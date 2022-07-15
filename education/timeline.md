@@ -2,7 +2,7 @@
 title: 学习经历时间轴
 description: 时间轴
 published: true
-date: 2022-07-15T00:20:30.813Z
+date: 2022-07-15T00:20:42.667Z
 tags: 学历
 editor: markdown
 dateCreated: 2022-07-14T02:08:08.097Z
@@ -86,4 +86,4 @@ dateCreated: 2022-07-14T02:08:08.097Z
 
 ![学位英语证书.png](/imgs/学位英语证书.png)
 
-### 14 2022年7月 拿到中澳学院的毕业证了。 专科毕业
+### 15 2022年7月14日 拿到中澳学院的毕业证了。 专科毕业
