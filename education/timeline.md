@@ -2,7 +2,7 @@
 title: 学习经历时间轴
 description: 时间轴
 published: true
-date: 2022-07-15T00:20:42.667Z
+date: 2022-07-15T00:20:53.678Z
 tags: 学历
 editor: markdown
 dateCreated: 2022-07-14T02:08:08.097Z
