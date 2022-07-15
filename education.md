@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-07-14T02:06:36.862Z
+date: 2022-07-15T00:19:32.206Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -34,3 +34,5 @@ dateCreated: 2022-06-13T06:00:45.902Z
  3. [软考架构师](/education/software-exam)
 
 ---
+
+[学习经历时间轴](/education/timeline)
