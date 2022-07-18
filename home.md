@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2022-07-18T05:49:53.094Z
+date: 2022-07-18T05:50:18.243Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -13,7 +13,7 @@ dateCreated: 2022-06-13T03:22:17.187Z
 ## wiki内导航
 
 ### [我的linux](/mine-linux)
-> 自己买了太迷你电脑都服务器，记录一下事项。
+> 自己买了台迷你电脑当服务器，记录一下事项。
 
   - [买了台迷你主机安装ubuntu server](/mine-linux/001)
   
