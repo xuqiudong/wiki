@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-07-19T03:33:32.934Z
+date: 2022-07-19T03:43:34.973Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -56,3 +56,30 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 |   2004   |  上传文件分片错误    |      |
 |   2005   |  文件长度溢出    |      |
    
+### command 指令信息说明
+| command | 说明 | 备注 |
+| ---- | ---- | ---- |
+| init|客户端请求初始化： 请求文件上传的时候| 参见初始化请求|
+|ready|服务端已准备好： 客户端可以发送二进制文件了|
+|progress|服务端告知客户端进度信息|参见 文件上传进度信息|
+|finished| 服务端告知客户端文件上传完成|
+
+### 发起文件初始化指令信息
+
+```
+{
+  "command" : "init", //须为init指令
+  "type" : null, //文件类型 ：warrant-权证， insurance-保险
+  "total" : 0, //文件长度总
+  "filename" : null,//文件名
+  "seq" : 0 //当前片段序号
+}
+```
+### 文件上传进度信息 
+> 当服务端返回的command为progress时的data数据格式
+```
+{
+  "progress" : 0,//上传进度 0 -100 
+  "speed" : null //上传速度  如 500K/s
+}
+```
