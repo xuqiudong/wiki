@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-07-19T03:29:45.801Z
+date: 2022-07-19T03:33:32.934Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -45,4 +45,14 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
   "data" : null //正常时候的数据信息，可能存在，可能不存在，结合command，对应不同的数据格式
 }
 ```
+### 后端统一错误码
+| code | msg  | 备注 |
+| ---- | ---- | ---- |
+|   1001   |   用户名或密码错误   |      |
+|1002  |   用户被禁用   |      |
+|   2001   |  不合法指令    |      |
+|   2002   |  创建文件失败    |      |
+|   2003   |  上传任务尚未初始化    |      |
+|   2004   |  上传文件分片错误    |      |
+|   2005   |  文件长度溢出    |      |
    
