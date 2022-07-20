@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2022-07-20T01:10:12.736Z
+date: 2022-07-20T01:11:04.179Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
