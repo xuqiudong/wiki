@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2022-07-22T02:04:40.335Z
+date: 2022-07-22T02:06:13.181Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -28,7 +28,7 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 ### personal
 
-- [值得一看的电影(/personal/movie)
+- [值得一看的电影](/personal/movie)
 
 
 ## 我的导航
