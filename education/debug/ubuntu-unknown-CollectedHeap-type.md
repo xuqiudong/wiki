@@ -2,7 +2,7 @@
 title: Ubuntu jmap -heap 命令出现:unknown CollectedHeap type : class sun.jvm.hotspot.gc_interface.CollectedHeap
 description: Ubuntu jmap -heap 命令出现:unknown CollectedHeap type : class sun.jvm.hotspot.gc_interface.CollectedHeap
 published: true
-date: 2022-07-22T01:56:44.507Z
+date: 2022-07-22T01:59:30.051Z
 tags: debug, development
 editor: markdown
 dateCreated: 2022-07-22T01:56:44.507Z
