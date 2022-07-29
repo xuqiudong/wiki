@@ -2,7 +2,7 @@
 title: development
 description: 软件开发，学习，问题记录等
 published: true
-date: 2022-07-29T02:25:24.662Z
+date: 2022-07-29T02:26:36.022Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -12,6 +12,6 @@ dateCreated: 2022-07-22T01:33:01.097Z
 
 - [ubuntu-unknown-CollectedHeap-type](/development/debug/ubuntu-unknown-CollectedHeap-type)
 
-## [nginx](/development/nginx)
+## [nginx](/development/nginx/development)
 
-- [config](/development/nginx/config)
+- [nginx配置中的一些问题](/development/nginx/config)
