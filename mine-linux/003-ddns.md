@@ -2,7 +2,7 @@
 title: 动态域名解析ddns
 description: 我的linux设置ddns
 published: true
-date: 2022-08-01T06:01:48.323Z
+date: 2022-08-01T06:03:47.530Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-08-01T01:42:25.846Z
@@ -37,8 +37,8 @@ dateCreated: 2022-08-01T01:42:25.846Z
 1.  [花生壳](https://hsk.oray.com/) : 送的免费二级域名 http://2468011t2l.goho.co/ 没有可读性。
 2.  [freedns](https://freedns.afraid.org/): 申请了 xuqiudong.us.to
    - 官网提供了API接口实现ddns
-   - 写了个定时器，定时访问接口，以实现DDNS
-   - `crontab` : `0  */1 * * * /xqd/min 0  */1 * * * /xqd/mine-shell/freedns/freedns.sh`
+   - 写了个定时器，每小时定时访问接口，以实现DDNS
+   - `crontab` : `0  */1 * * * /xqd/mine-shell/freedns/freedns.sh`
    - `freedns.sh` :  
    ```
    
