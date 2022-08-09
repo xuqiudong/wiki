@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-08-09T03:29:32.692Z
+date: 2022-08-09T03:34:49.302Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -134,3 +134,29 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
    "data":null
 }
 ```
+
+### 文件名校验
+> 在文件上传之前先进行文件名的校验，主要关注当前识别号是否已经存在。存在的时候可以强制上传。
+另外，在发起socket上传请求的时候，依然会校验其他类型，但不再进行唯一性校验。
+
+**请求地址**
+`POST|GET`: `/check`
+**请求参数:**   
+
+| 参数   | 数据类型 | 必填 | 参数说明              |
+| ------ | -------- | ---- | --------------------- |
+| filename | String     | Y    | 文件名            |
+| type | String      | Y    | 类型：warrant-权证；insurance-保险|
+
+
+
+**响应结果:**
+```javascript
+{
+   "code": 0,//成功为0  ，其他错误码参见 后端统一错误码
+   "message":"",//失败时候的说明
+   "data": null
+}
+```
+
+
