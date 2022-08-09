@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2022-08-02T03:44:24.142Z
+date: 2022-08-09T03:44:00.790Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
@@ -39,7 +39,9 @@ dateCreated: 2022-06-13T06:00:53.930Z
  - 基于php 运行在7000端口，被nginx反向代理 
 
 ## xuqiudong.cn域名和子域名的安排
-> 主要是因为电信不开放 80和443端口。
+> 主要是因为电信不开放 80和443端口。 如果后期不购买云服务器的话，就要带端口访问了。 暂时通过云服务器上nginx反向代理到" xuqiudong.us.to :port。"
+
+
 1. 博客首页：xuqiudong.cn 重定向到 https://blog.xuqiudong.cn:88
 2. wiki首页: https://wiki.xuqiudong.cn:88
 3. 导航： https://nav.xuqiudong.cn:88
