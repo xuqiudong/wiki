@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-08-09T03:22:14.565Z
+date: 2022-08-09T03:27:55.660Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -90,3 +90,32 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
   "speed" : "5M/s" //上传速度  如 500K/s
 }
 ```
+
+## HTTP接口
+### 登陆
+**请求地址**
+`POST`: `/login`
+**请求参数:**   
+
+| 参数   | 数据类型 | 必填 | 参数说明              |
+| ------ | -------- | ---- | --------------------- |
+| username | String     | Y    | 用户名            |
+| password | String      | Y    | 密码|
+
+
+
+**响应结果:**
+```javascript
+{
+   "code": 0,//成功为0  ，其他错误码参见 后端统一错误码
+   "message":"",//失败时候的说明
+   "data": {
+       "id":“xxx”,
+       "username":"admin"
+       "name":"张三"
+   }
+}
+```
+
+
+### 登出
