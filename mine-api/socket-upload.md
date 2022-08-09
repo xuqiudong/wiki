@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-08-09T03:34:49.302Z
+date: 2022-08-09T03:37:35.482Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -38,7 +38,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
    
 ## API 相关说明
 
-### 后端返回数据格式
+### socket返回数据格式
 > 统一返回json字符串
 
 ```
@@ -108,7 +108,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```javascript
 {
    "code": 0,//成功为0  ，其他错误码参见 后端统一错误码
-   "message":"",//失败时候的说明
+   "msg":"",//失败时候的说明
    "data": {
        "id":“123qwexxx”,
        "username":"admin"
@@ -130,7 +130,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```javascript
 {
    "code": 0,//成功为0  
-   "message":"",//失败时候的说明
+   "msg":"",//失败时候的说明
    "data":null
 }
 ```
@@ -154,7 +154,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```javascript
 {
    "code": 0,//成功为0  ，其他错误码参见 后端统一错误码
-   "message":"",//失败时候的说明
+   "msg":"",//失败时候的说明
    "data": null
 }
 ```
