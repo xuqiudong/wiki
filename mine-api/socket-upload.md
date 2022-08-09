@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-08-09T03:20:20.703Z
+date: 2022-08-09T03:21:55.175Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -78,7 +78,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
   "command" : "init", //须为init指令
   "type" : null, //文件类型 ：warrant-权证， insurance-保险
   "total" : 0, //文件长度总
-  "filename" : null,//文件名
+  "filename" : "xxx-xxx-xx.pdf",//文件名
   "seq" : 0 //当前片段序号
 }
 ```
