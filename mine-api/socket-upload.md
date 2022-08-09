@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-08-09T03:27:55.660Z
+date: 2022-08-09T03:29:32.692Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -110,7 +110,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
    "code": 0,//成功为0  ，其他错误码参见 后端统一错误码
    "message":"",//失败时候的说明
    "data": {
-       "id":“xxx”,
+       "id":“123qwexxx”,
        "username":"admin"
        "name":"张三"
    }
@@ -119,3 +119,18 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 
 ### 登出
+**请求地址**
+`POST|GET`: `/logout`
+**请求参数:**   
+
+`无`
+
+
+**响应结果:**
+```javascript
+{
+   "code": 0,//成功为0  
+   "message":"",//失败时候的说明
+   "data":null
+}
+```
