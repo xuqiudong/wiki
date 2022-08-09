@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-08-09T03:21:55.175Z
+date: 2022-08-09T03:22:14.565Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -87,6 +87,6 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```
 {
   "progress" : 0,//上传进度 0 -100 
-  "speed" : null //上传速度  如 500K/s
+  "speed" : "5M/s" //上传速度  如 500K/s
 }
 ```
