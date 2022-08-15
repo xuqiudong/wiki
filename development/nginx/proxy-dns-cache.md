@@ -2,12 +2,14 @@
 title: 反向代理域名缓存引起的504 Gateway Time-out
 description: 反向代理域名缓存引起的504 Gateway Time-out
 published: true
-date: 2022-08-15T02:16:25.390Z
+date: 2022-08-15T02:21:43.434Z
 tags: mine-linux, nginx
 editor: markdown
 dateCreated: 2022-08-15T01:47:23.978Z
 ---
 
+
+### 问题经过
 
 >    早上来访问 wiki.xuqiudong.cn 居然504 Gateway Time-out
  这个域名是阿里云的二级域名，通过nginx反向代理到自己的家庭主机：xuqiudong.us.to:3000
@@ -16,8 +18,16 @@ dateCreated: 2022-08-15T01:47:23.978Z
  > 
  > 直接访问xuqiudong.us.to:3000， 是ok的，看来是nginx反向代理的问题。打开error日志查看，显示upstream的还是以前的ip地址。 懂了，dns被ngixn缓存了。
  
+### 问题描述
+> 通过 `resolver` 解决NGINX反向代理DDNS的DNS缓存问题，即：
+  1. 被反向代理的是域名xuqiudong.us.to，这个域名对应的IP会动态改变
+  2. IP改变后，虽然已经通知了xuqiudong.us.to，但是NGINX反向代理的此域名，由于缓存问题依然访问的是原来的IP，导致504 Gateway Time-out
+  
+  
+
  
- #### 解决办法：
+ 
+ ### 解决办法：
  1. 万能重启法。
    - 果然 `./nginx -s reload` 一下，立刻就ok了。
    
