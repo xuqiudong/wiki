@@ -2,7 +2,7 @@
 title: 反向代理域名缓存引起的504 Gateway Time-out
 description: 反向代理域名缓存引起的504 Gateway Time-out
 published: true
-date: 2022-08-15T02:03:17.282Z
+date: 2022-08-15T02:16:25.390Z
 tags: mine-linux, nginx
 editor: markdown
 dateCreated: 2022-08-15T01:47:23.978Z
@@ -23,7 +23,18 @@ dateCreated: 2022-08-15T01:47:23.978Z
    
  但是重启nginx不是我要的解决方案啊，毕竟电信的ip要动，什么时候动，我不得而知啊，
  
-##### nginx的resover指令
+##### nginx的 resolver  指令
+> http://nginx.org/en/docs/http/ngx_http_core_module.html#resolver
+https://nginx.org/en/docs/http/ngx_http_upstream_module.html
  
+ resolver 指令有部分是商用的。
  
- 
+``` 
+resolver 114.114.114.114 8.8.8.8 valid=1800s;
+resolver_timeout 3s;
+``` 
+- `resolver` 可以在http全局设定，也可在server里面设定，我的设置在server里面，因为此处只需要处理这个子域名
+- `resolver` 后面指定DNS服务器，可以指定多个，空格隔开
+- `valid`设置DNS缓存失效时间。  也应适当考虑下效率什么的。
+- `resolver_timeout` 指定解析域名时，DNS服务器的超时时间
+
