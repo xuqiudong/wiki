@@ -2,7 +2,7 @@
 title: 反向代理域名缓存引起的504 Gateway Time-out
 description: 反向代理域名缓存引起的504 Gateway Time-out
 published: true
-date: 2022-08-15T01:47:23.978Z
+date: 2022-08-15T02:03:17.282Z
 tags: mine-linux, nginx
 editor: markdown
 dateCreated: 2022-08-15T01:47:23.978Z
@@ -18,4 +18,12 @@ dateCreated: 2022-08-15T01:47:23.978Z
  
  
  #### 解决办法：
- - 万能重启法。
+ 1. 万能重启法。
+   - 果然 `./nginx -s reload` 一下，立刻就ok了。
+   
+ 但是重启nginx不是我要的解决方案啊，毕竟电信的ip要动，什么时候动，我不得而知啊，
+ 
+##### nginx的resover指令
+ 
+ 
+ 
