@@ -2,7 +2,7 @@
 title: 软考:架构师
 description: 2022年4月，考虑是否考一个软考证书
 published: true
-date: 2022-06-28T00:33:18.164Z
+date: 2022-08-19T07:14:07.997Z
 tags: 学历
 editor: markdown
 dateCreated: 2022-06-13T06:01:06.506Z
@@ -20,3 +20,4 @@ dateCreated: 2022-06-13T06:01:06.506Z
 2. 如果有余力，就考一次，主力还是放在明年考。
   
 - [架构风格汇总](/education/software-exam/architecture-style-summary)  
+- [专业英语试题](/education/software-exam/eglish)
