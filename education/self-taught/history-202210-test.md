@@ -2,14 +2,13 @@
 title: 近代史平时测验2022-10
 description: 近代史平时测验，2022年10月
 published: true
-date: 2022-08-22T05:54:40.632Z
+date: 2022-08-22T06:10:41.800Z
 tags: st, 自考
 editor: markdown
 dateCreated: 2022-08-22T05:44:27.517Z
 ---
 
-
-[2022-10平时测验.pdf版本](/document/2022-10平时测验.pdf)
+[2022-10平时测验.pdf版本](http://xuqiudong.us.to:83/s/Y8fZjiYSgF8NFwW/download/2022-10%E8%BF%91%E4%BB%A3%E5%8F%B2%E5%B9%B3%E6%97%B6%E6%B5%8B%E9%AA%8C.pdf)
 # 平时测验1
 
 1. **洪秀全登极称天王，是在()**
