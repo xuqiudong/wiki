@@ -2,8 +2,8 @@
 title: 近代史平时测验2022-10
 description: 近代史平时测验，2022年10月
 published: true
-date: 2022-08-22T06:10:41.800Z
-tags: st, 自考
+date: 2022-08-22T06:13:09.687Z
+tags: study, 自考
 editor: markdown
 dateCreated: 2022-08-22T05:44:27.517Z
 ---
