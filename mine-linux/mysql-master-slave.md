@@ -2,7 +2,7 @@
 title: mysql8.0 主从备份(ubutu22.04到centos7.9)
 description: mysql8.0 主从备份(ubutu22.04到centos7.9)
 published: true
-date: 2022-09-02T05:56:13.057Z
+date: 2022-09-02T06:04:44.586Z
 tags: mine, mysql
 editor: markdown
 dateCreated: 2022-09-02T05:54:48.387Z
@@ -20,6 +20,7 @@ dateCreated: 2022-09-02T05:54:48.387Z
 >
 > - 由于家用主机ip会变化，ddns会有一定的延迟，加上nginx反向代理域名会缓存ip(虽然在ngixn上我通过resolver解决缓存（参见我上一篇博文[临窗旋墨-反向代理域名缓存引起的504 Gateway Time-out (xuqiudong.cn)](https://xuqiudong.cn/detail/36)），但是考虑到效率，我依然设置了一定时间的缓存)。
 > - 有鉴于此，当家用主机ip变化的时候，可能存在一定的时间无法访问xuqiudong.cn的情况。故在阿里云主机上同步部署了xuqiudong.cn项目并安装了数据库。
+> - nginx配置的负载策略(backup)，当家用主机宕机的时候，访问阿里云本机项目。
 > - 所以需要从家用主机ubuntu上同步数据库到阿里centos上。
 
 
