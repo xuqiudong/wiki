@@ -2,19 +2,17 @@
 title: mysql8.0 主从备份(ubutu22.04到centos7.9)
 description: mysql8.0 主从备份(ubutu22.04到centos7.9)
 published: true
-date: 2022-09-02T05:54:48.387Z
+date: 2022-09-02T05:56:13.057Z
 tags: mine, mysql
 editor: markdown
 dateCreated: 2022-09-02T05:54:48.387Z
 ---
 
-## mysql8.0 主从备份(ubutu22.04到centos7.9)
-
 ### 缘由
 
    我的主机：
 
-- 阿里云主机centos7.9， 固定id， xuqiduong.cn域名解析到此主机额
+- 阿里云主机centos7.9， 固定ip， xuqiduong.cn域名解析到此主机
 
 - 家用小主机ubutu22.04， ip会动态改变， 通过ddns解析到xuqiudong.us.to
 
