@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2022-08-09T03:44:00.790Z
+date: 2022-09-16T09:31:11.535Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
@@ -29,7 +29,7 @@ dateCreated: 2022-06-13T06:00:53.930Z
 ## 更换了路由器不再是tplink，因此xuqiudong.tpddns.cn失效
 > 2022-08-01
 ### 申请了freedns的免费二级域名xuqiudong.us.to
-当前路由器支持对[freedns](xuqiudong.tpddns.cn)的ddns，另外也写了定时器更是更新ip解析
+当前路由器支持对[freedns](xuqiudong.tpddns.cn)的ddns，另外也写了定时器定时更新ip解析
 1. 空nginx：  http://xuqiudong.us.to:81/
 2. portainer: http://xuqiudong.us.to:82/  
   - nginx代理了是9000上的端口
