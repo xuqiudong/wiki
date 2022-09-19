@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-16T08:06:54.767Z
+date: 2022-09-19T07:48:32.906Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -98,3 +98,11 @@ dateCreated: 2022-08-26T07:57:31.531Z
   - 检查输入的合法性
   - 存储过程执行查询
   - 漏洞扫描工具
+  
+## 014 Entity和Class的区别  
+- 实体用于数据建模， 类用于对象建模；
+- 实体只有属性，类有属性和方法；
+
+## 015 Essential Use Cases和Real Use Cases区别？
+- 抽象用例：从基础用例中抽取用例的公共部分，为避免重复工作，优化结构而提出的用例。
+- 基础用例：是实实在在和用户需求对应的用例
