@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-09-20T09:42:45.751Z
+date: 2022-09-20T10:00:59.460Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -68,7 +68,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 | command | 说明 | 备注 |
 | ---- | ---- | ---- |
 | init|客户端请求初始化： 请求文件上传的时候| 参见初始化请求|
-|ready|服务端已准备好： 客户端可以发送二进制文件了|
+|ready|服务端已准备好： 客户端可以发送二进制文件了| 若是续传，则data对应已经上传的长度
 |progress|服务端告知客户端进度信息|参见 文件上传进度信息|
 |finished| 服务端告知客户端文件上传完成|
 
