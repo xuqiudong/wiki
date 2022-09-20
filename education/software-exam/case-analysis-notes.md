@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-20T06:57:49.339Z
+date: 2022-09-20T08:25:00.882Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -138,3 +138,8 @@ dateCreated: 2022-08-26T07:57:31.531Z
   - 接收来自视图的输入，解释为系统理解的对象，识别用户动作，解释为模型的特定方法的调用；
   - 处理来自模型的事件和执行结果，调用适当的视图为用户反馈。
 3. 模型model：程序的主体，表示业务数据和业务逻辑。一个model为多个视图提供数据。  
+
+## 019 EJB中三种bean
+- Session bean: 维持一个短暂的会话
+- entity bean: 维持一行持久稳固的数据
+- Message-driven bean: 异步接收消息
