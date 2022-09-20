@@ -2,11 +2,19 @@
 title: 英语二00015-平时测验202210
 description: 英语二00015-平时测验202210
 published: true
-date: 2022-09-20T02:50:13.643Z
+date: 2022-09-20T02:55:04.551Z
 tags: study, 自考
 editor: markdown
 dateCreated: 2022-09-20T02:50:13.643Z
 ---
+
+**202210 平时测验：**
+ - [近代史03708-平时测验202210](/education/self-taught/history-202210-test)
+
+ - [数据结构02331 平时测验202210](/education/self-taught/02331-test-202210)
+ 
+ - [英语二00015-平时测验202210-test](/education/self-taught/english-202210-test)
+ 
 
 # 英语二202010 平时测验
 
