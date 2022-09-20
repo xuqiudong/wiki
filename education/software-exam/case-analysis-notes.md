@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-20T08:25:00.882Z
+date: 2022-09-20T09:01:30.303Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -143,3 +143,13 @@ dateCreated: 2022-08-26T07:57:31.531Z
 - Session bean: 维持一个短暂的会话
 - entity bean: 维持一行持久稳固的数据
 - Message-driven bean: 异步接收消息
+
+## 020 ROS(机器人操作系统)和嵌入式实时操作系统的异同
+1. **共同点**
+ - 系统微型化
+ - 系统专用性强
+ - 软硬件依赖性强
+ - 系统资源受限
+2. **差异** 
+ - 实时性：ROS弱一些
+ - 通信方式：ROS更丰富，嵌入式实时操作系统较单一
