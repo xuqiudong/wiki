@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-08-09T03:37:35.482Z
+date: 2022-09-20T09:42:45.751Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -37,6 +37,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
    
 ## API 相关说明
+### socket地址 `/ws/upload`
 
 ### socket返回数据格式
 > 统一返回json字符串
