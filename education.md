@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-09-22T03:57:06.995Z
+date: 2022-09-22T04:21:11.481Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -32,6 +32,7 @@ dateCreated: 2022-06-13T06:00:45.902Z
 
  
  时间轴
+ 
  |时间 | 高职 | 自考 | 软考
  |---|---|---|---|
  |2019-10| 参加高职|~|~|
