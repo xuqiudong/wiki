@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-09-22T03:22:10.846Z
+date: 2022-09-22T03:23:14.729Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -16,8 +16,9 @@ dateCreated: 2022-06-13T06:00:45.902Z
      
 
 ---
- 1. [高职扩招](/education/college)    
-  > 2019年10月参加安徽中澳学院的专科扩招
+ -  [高职扩招](/education/college)  已完成  
+ 
+   1. 2019年10月参加安徽中澳学院的专科扩招
   
     - 2019-10 —— 2022-07 已完成
  2. [自考本科](/education/self-taught)
