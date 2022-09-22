@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-09-22T04:21:11.481Z
+date: 2022-09-22T05:32:09.825Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -28,10 +28,8 @@ dateCreated: 2022-06-13T06:00:45.902Z
   - 2022年4月的自考因为疫情取消了
 
  ### 三 [软考架构师](/education/software-exam) 
-  > 2022-05(决定参见2023年的软考) —— 至今
+  > 2022-05(决定参加2023年的软考) —— 至今
 
- 
- 时间轴
  
  |时间 | 高职 | 自考 | 软考
  |---|---|---|---|
