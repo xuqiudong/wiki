@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2022-09-22T07:41:19.995Z
+date: 2022-09-22T07:42:33.469Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -31,6 +31,11 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 ### [学习经历](/education)
 ` 少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
+
+- [架构风格汇总](/education/software-exam/architecture-style-summary)
+- [软考案例分析随手记](/education/software-exam/case-analysis-notes)
+- [软考专业英语试题](/education/software-exam/eglish)
+
 
 ### personal
 
