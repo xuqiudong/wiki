@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-23T07:55:22.248Z
+date: 2022-09-23T07:56:06.487Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -233,4 +233,4 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 - 数据存储：信息的静态存储，可以是文件、文件的一部分、数据库元素等
 > 加工:需要输入流 和输出流 （缺少输出 则属于黑洞； 缺少输入，则属于奇迹）
 > 从数据存储到外部实体，需要加工加工
-> 数据存储需要输出的数据流
+> 数据存储一般需要输出的数据流
