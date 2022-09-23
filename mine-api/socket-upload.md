@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-09-20T10:00:59.460Z
+date: 2022-09-23T03:24:13.939Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -159,5 +159,25 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
    "data": null
 }
 ```
+### 测试用-查看最后生成的几条权证或保险信息
+> 仅从数据库中查询出最后几条权证或保险信息，以及对应的附件信息，未做转义，仅用于测试
 
+**请求地址**
+`POST|GET`: `/find`
+**请求参数:**   
+
+| 参数   | 数据类型 | 必填 | 参数说明              |
+| ------ | -------- | ---- | --------------------- |         |
+| type | String      | Y    | 类型：warrant-权证；insurance-保险|
+
+
+
+**响应结果:**
+```javascript
+{
+   "code": 0,//成功为0  ，其他错误码参见 后端统一错误码
+   "msg":"",//失败时候的说明
+   "data": null //list列表 显示最后10条信息：附件信息 + 列表信息，均未转义
+}
+```
 
