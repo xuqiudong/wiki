@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-26T09:22:50.535Z
+date: 2022-09-26T09:28:47.849Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -281,4 +281,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 - 基于公钥体系的认证，由于秘钥机制的复杂性，且私钥不在网络上传输，可有效防止认证攻击
 - 基于公钥的认证方式协议和计算更加复杂，高并发环境慎用
 
+## 036 数字信封加解密过程
+1. 加密：生成秘钥对 → 公钥对秘钥对加密后存储在文件头 → 秘钥加密内容
+2. 解密： 私钥解密获得秘钥对 → 秘钥对解密密文 获得原文
  
