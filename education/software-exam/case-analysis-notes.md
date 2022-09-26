@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-26T08:36:02.103Z
+date: 2022-09-26T09:22:50.535Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -275,4 +275,10 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 9. 预算
 10. 变更流程和变更控制委员会
 11. 对于内容、范围和时间的关键管理评审，便于确定悬留问题和未决决策
+
+## 035 基于口令和公钥体系认证的区别
+- 基于口令的认证方式实现简单，但由于口令的复杂度和管理的原因，易受到认证攻击；
+- 基于公钥体系的认证，由于秘钥机制的复杂性，且私钥不在网络上传输，可有效防止认证攻击
+- 基于公钥的认证方式协议和计算更加复杂，高并发环境慎用
+
  
