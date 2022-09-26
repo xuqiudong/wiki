@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-09-23T03:24:13.939Z
+date: 2022-09-26T01:49:07.633Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -93,7 +93,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ```
 
 ## HTTP接口
-### 登陆
+### 1 登陆
 **请求地址**
 `POST`: `/login`
 **请求参数:**   
@@ -108,18 +108,23 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 **响应结果:**
 ```javascript
 {
-   "code": 0,//成功为0  ，其他错误码参见 后端统一错误码
-   "msg":"",//失败时候的说明
-   "data": {
-       "id":“123qwexxx”,
-       "username":"admin"
-       "name":"张三"
-   }
+	"code": 0,//成功为0  ，其他错误码参见 后端统一错误码
+	"msg": "",//失败时候的说明
+	"data": {
+		"user": {
+			"id": "1",
+			"username": "admin",
+			"name": "stlgy管理员",
+			"enabled": true
+		},
+		"sessionId": "3E933DCDA7E35230DE57A3B80B903B39"
+	},
+	"success": true
 }
 ```
 
 
-### 登出
+### 2 登出
 **请求地址**
 `POST|GET`: `/logout`
 **请求参数:**   
@@ -136,7 +141,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 }
 ```
 
-### 文件名校验
+### 3 文件名校验
 > 在文件上传之前先进行文件名的校验，主要关注当前识别号是否已经存在。存在的时候可以强制上传。
 另外，在发起socket上传请求的时候，依然会校验其他类型，但不再进行唯一性校验。
 
@@ -159,7 +164,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
    "data": null
 }
 ```
-### 测试用-查看最后生成的几条权证或保险信息
+### 4  测试用-查看最后生成的几条权证或保险信息
 > 仅从数据库中查询出最后几条权证或保险信息，以及对应的附件信息，未做转义，仅用于测试
 
 **请求地址**
