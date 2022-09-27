@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-27T08:05:27.389Z
+date: 2022-09-27T08:13:12.428Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -297,4 +297,4 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 2. 结构型：处理类或对象的组合，对类如何设计以形成更大的结构提供指南。
     `适配器、桥接、组合、装饰、外观、享元、代理`
 3. 行为型： 描述类或对象的交互以及职责的分配，对类之间的交互和职责分类的方式提供指南。
-    `责任链、命令、解释器、迭代、中介、备忘录、外观这、状态、策略、模板、访问者` 
+    `责任链、命令、解释器、迭代、中介、备忘录、外观者、状态、策略、模板、访问者` 
