@@ -2,7 +2,7 @@
 title: 英语二00015-平时测验202210
 description: 英语二00015-平时测验202210
 published: true
-date: 2022-09-20T02:55:04.551Z
+date: 2022-09-28T02:52:04.584Z
 tags: study, 自考
 editor: markdown
 dateCreated: 2022-09-20T02:50:13.643Z
@@ -626,7 +626,7 @@ In a family where the roles of men and women are not sharply separated and where
 
 ## 平时测验二
 
-1. **It goes without___that healthy people are healthier than the sick.**
+1. **It goes without___that healthy people are healthier than the sick.** `不用说，健康的人比生病的人更健康`
 
 - [x] →**saying**←
 
@@ -638,7 +638,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：需要用到一个固定的句型it goes without saying that…,况且介词without后面应使用动名词形式，因此选择A。
 
-2. **This committee selected the plan that seemed most ___.**
+2. **This committee selected the plan that seemed most ___.** `这个委员会选择了似乎最可行的计划`
 
 - [x] →**feasible**←
 
