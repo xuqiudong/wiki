@@ -2,7 +2,7 @@
 title: 英语二00015-平时测验202210
 description: 英语二00015-平时测验202210
 published: true
-date: 2022-09-28T05:56:33.690Z
+date: 2022-09-28T09:41:28.897Z
 tags: study, 自考
 editor: markdown
 dateCreated: 2022-09-20T02:50:13.643Z
@@ -1195,7 +1195,7 @@ We all believe that modern technology can make life better because it makes ever
 
 ## 平时测验三
 
-1. **If law and order ___, neither the citizen nor his property is safe.**
+1. **If law and order ___, neither the citizen nor his property is safe.** `如果法律和秩序得不到维护，公民及其财产就不安全 `
 
 - [ ] are not preserved
 
@@ -1233,15 +1233,17 @@ We all believe that modern technology can make life better because it makes ever
 
 4. **He was afraid he would have to ___ her invitation to the party.**
 
-- [ ] refute
+- [ ] refute `驳斥;批驳;反驳;否认`
 
-- [ ] refuse
+- [ ] refuse `拒绝;回绝;推却;`
 
-- [ ] return
+- [ ] return `回来;回去;返回;带回`
 
-- [x] →**decline**←
+- [x] →**decline**← `婉言拒绝;`
 
-  > 答案解析：根据句子含义，表达“婉拒，谢绝”，因此选择D。
+  > 答案解析：根据句子含义，表达“婉拒，谢绝”，因此选择D。 
+  >
+  > refuse和decline作动词都有“拒绝”的意思。但refuse指坚决地拒绝，通常通过行动来表示或通过言辞来表达，语气比decline强。decline指有礼貌的拒绝，婉言谢绝，通常是用言辞来表达。
 
 5. **It would be better to make a decision now, ___leave it until next week.**
 
@@ -1253,7 +1255,7 @@ We all believe that modern technology can make life better because it makes ever
 
 - [ ] more than
 
-  > 答案解析：A表示“除了”，B表示“而不是”，C表示“少于”，D表示“多于”，根据句子含义，选择B。
+  > 答案解析：A表示“除了”，B表示“**而不是**”，C表示“少于”，D表示“多于”，根据句子含义，选择B。
 
 6. **The first, second, and third prizes went to Bob, Jack and Henry ___.**
 
@@ -1267,7 +1269,7 @@ We all believe that modern technology can make life better because it makes ever
 
   > 答案解析：句子含义表达是“各自的，各个的”，因此选择C。
 
-7. **During the ___ two decades, research has greatly expanded our knowledge about the sleep and dreams.**
+7. **During the ___ two decades, research has greatly expanded our knowledge about the sleep and dreams.**  `在过去的二十年里，研究极大地扩展了我们对睡眠和梦的认识`
 
 - [ ] pass
 
@@ -1289,13 +1291,13 @@ We all believe that modern technology can make life better because it makes ever
 
 - [ ] is it what
 
-  > 答案解析：考察名词性宾语从句，而且从句中的词序应按照陈述语气展开，选择B。
+  > 答案解析：考察**名词性宾语从句**，而且从句中的词序应按照**陈述语气**展开，选择B。
 
-9. **She simply ___ that the check was good and did not ask him any question about it.**
+9. **She simply ___ that the check was good and did not ask him any question about it.** `她只是想当然地认为支票是好的，没有问他任何有关这方面的问题`
 
 - [ ] took it easy
 
-- [x] →**took it for granted**←
+- [x] →**took it for granted**← `认为这是理所当然的`
 
 - [ ] took it up with
 
@@ -1325,7 +1327,7 @@ We all believe that modern technology can make life better because it makes ever
 
 - [ ] worthy to buy
 
-  > 答案解析：固定句型搭配worth+名词/动名词，选择B。
+  > 答案解析：固定句型搭配**worth+名词/动名词**，选择B。
 
 12. **Work should not be allowed to ___ our lives.**
 
@@ -1351,7 +1353,7 @@ We all believe that modern technology can make life better because it makes ever
 
   > 答案解析：句子含义表达“认出，鉴定”，因此选择B，另外注意：与该词搭配的介词为as。
 
-14. **Topics for conversation should be ___ to the experiences and interests of the students.**
+14. **Topics for conversation should be ___ to the experiences and interests of the students.** `谈话主题应与学生的经历和兴趣相关`
 
 - [ ] rigid
 
@@ -1369,11 +1371,11 @@ We all believe that modern technology can make life better because it makes ever
 
 - [ ] except for
 
-- [x] →**other than**←
+- [x] →**other than**← 
 
 - [ ] in addition to
 
-  > 答案解析：根据句子含义，表达的“除了”，因此选择C。
+  > 答案解析：根据句子含义，表达的“**除了**”，因此选择C。
 
 16. **Finding a job can be ___ and disappointing, and therefore it is important that you are prepared.**
 
@@ -1435,7 +1437,11 @@ We all believe that modern technology can make life better because it makes ever
 
   > 答案解析：从答案中可分析出both…and的固定用法，选择B。
 
-**In some countries, women are paid less than men for the same work. The employer’s argument in places  ___11___ this happens is that men usually have a wife and children to support and women usually have  ___12___. They say that most women workers are either unmarried and have no one to support, ___13___ have husbands who also work and bring home money, so that it would be ___14___ for them to be paid as much as a man who has a wife ___15___ does not work because she has several children at home to look after. This ___16___ is quite true; but you do find some men workers who are unmarried and have no one to support, and some women workers who are widows and have children to support. Other women workers, ___17___they have no children, may have old or ___18___ parents and young brothers and sisters who cannot yet work. The fact is that the problem of paying workers ___19___to their family needs cannot be solved simply by giving the men more and the women less. The answer is to pay both ___20___, and to leave it to the state justice is done by means of taxation and allowance.**
+ In some countries, women are paid less than men for the same work. The employer’s argument in places  ___11___ this happens is that men usually have a wife and children to support and women usually have  ___12___. They say that most women workers are either unmarried and have no one to support, ___13___ have husbands who also work and bring home money, so that it would be ___14___ for them to be paid as much as a man who has a wife ___15___ does not work because she has several children at home to look after. This ___16___ is quite true; but you do find some men workers who are unmarried and have no one to support, and some women workers who are widows and have children to support. Other women workers, ___17___they have no children, may have old or ___18___ parents and young brothers and sisters who cannot yet work. The fact is that the problem of paying workers ___19___ to their family needs cannot be solved simply by giving the men more and the women less. The answer is to pay both ___20___, and to leave it to the state justice is done by means of taxation and allowance. 
+
+> 11- 15  where  |  not|  or | unjust  | who
+>
+> 16 -20 of course |  though | sick |  according |  alike
 
 > **在一些国家，妇女从事同样工作的报酬低于男子。在这种情况发生的地方，雇主的论点是，男人通常有妻子和孩子需要抚养，而女人通常没有。他们说，大多数女工要么未婚，没有人赡养，要么有丈夫也工作，带着钱回家，所以他们的工资与妻子不工作，因为妻子在家有几个孩子要照顾的男人一样不公平。这当然是千真万确的；但你确实会发现，有些男性工人未婚，无人抚养，还有一些女性工人是寡妇，有孩子需要抚养。其他女工虽然没有孩子，但可能有年老或生病的父母以及还不能工作的弟弟妹妹。事实上，根据工人的家庭需要支付工资的问题不能简单地通过给男人更多，给女人更少来解决。答案是两者支付相同，并通过税收和津贴的方式将其交给州司法**
 
@@ -1559,7 +1565,7 @@ We all believe that modern technology can make life better because it makes ever
 
   > 答案解析：句子说明“这个回答是双方的酬劳要均等”，说明词空的词性为副词，排除A，B和D，因为它们都是名词。选择C。
 
-**Music which is original is individual and personal. That is to say, it can be identified as belonging to a particular composer. It has particular qualities, or a style, which are not copied from another. If you can recognize the style of a composer, you will probably be able to tell that a certain composition belongs to him or her even though you have never heard it before. A basket-maker has the skill of weaving and interweaving his materials to create colorful patterns, and an expert carpenter（木匠）has the skill of joining together different shapes and sizes of wood to make a beautiful piece of furniture. These skills may be referred to as "workmanship"（技艺）. Similarly, in music a composer organizes his melodies（旋律）and rhythms and combines sounds to create harmony. A composer may be capable of thinking up very good, original tunes, yet if tunes are poorly organized, that is, if the workmanship is poor, the final result will not be to standard. Good music expresses feelings in a way that is suitable to those feelings. There may joy, sorrow, fear, love, anger, or whatever. Bad music, on the other hand, may confuse unrelated feelings, it may not express any important feeling at all, or it may exaggerate some feelings and make them vulgar, that is, cheap and ugly. Good music will stand the test of time. It will not go out of fashion but will continue to be enjoyed and respected long after it is first introduced. It will gain a kind of permanent status while bad music will disappear and be forgotten quickly. In pop music, where the general rule seems to be “the newer the better”, the test of time is the hardest test of all to pass.**
+ Music which is original is individual and personal. That is to say, it can be identified as belonging to a particular composer. It has particular qualities, or a style, which are not copied from another. If you can recognize the style of a composer, you will probably be able to tell that a certain composition belongs to him or her even though you have never heard it before. A basket-maker has the skill of weaving and interweaving his materials to create colorful patterns, and an expert carpenter（木匠）has the skill of joining together different shapes and sizes of wood to make a beautiful piece of furniture. These skills may be referred to as "workmanship"（技艺）. Similarly, in music a composer organizes his melodies（旋律）and rhythms and combines sounds to create harmony. A composer may be capable of thinking up very good, original tunes, yet if tunes are poorly organized, that is, if the workmanship is poor, the final result will not be to standard. Good music expresses feelings in a way that is suitable to those feelings. There may joy, sorrow, fear, love, anger, or whatever. Bad music, on the other hand, may confuse unrelated feelings, it may not express any important feeling at all, or it may exaggerate some feelings and make them vulgar, that is, cheap and ugly. Good music will stand the test of time. It will not go out of fashion but will continue to be enjoyed and respected long after it is first introduced. It will gain a kind of permanent status while bad music will disappear and be forgotten quickly. In pop music, where the general rule seems to be “the newer the better”, the test of time is the hardest test of all to pass. 
 
 > 原创音乐是个人和个人的。也就是说，它可以被识别为属于某个特定的作曲家。它具有独特的品质或风格，而不是模仿别人。如果你能认出作曲家的风格，你就可能知道某篇作品属于他或她，即使你以前从未听说过。篮筐制造者有编织和交织材料的技能，可以创造出彩色图案，而木匠则是专家(木匠）具有将不同形状和尺寸的木材连接在一起以制作漂亮家具的技能。这些技能可以称为“工艺”(技艺）. 同样，在音乐中，作曲家组织他的旋律(旋律）和节奏，并结合声音创造和谐。作曲家可能会想出非常好的原创曲调，但如果曲调组织得不好，也就是说，如果工艺不好，最终的结果将不符合标准。好的音乐以适合这些感觉的方式表达情感。可能有欢乐、悲伤、恐惧、爱、愤怒或其他什么。另一方面，糟糕的音乐可能会混淆无关的情感，它可能根本无法表达任何重要的情感，或者它可能会夸大某些情感，使其变得粗俗，即廉价和丑陋。好音乐经得起时间的考验。它不会过时，但会在首次推出后很长一段时间内继续受到人们的喜爱和尊重。它将获得一种永久的地位，而坏音乐将很快消失并被遗忘。在流行音乐
 
