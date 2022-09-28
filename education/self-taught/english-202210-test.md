@@ -2,19 +2,20 @@
 title: 英语二00015-平时测验202210
 description: 英语二00015-平时测验202210
 published: true
-date: 2022-09-28T02:52:04.584Z
+date: 2022-09-28T05:56:33.690Z
 tags: study, 自考
 editor: markdown
 dateCreated: 2022-09-20T02:50:13.643Z
 ---
 
 **202210 平时测验：**
+
  - [近代史03708-平时测验202210](/education/self-taught/history-202210-test)
 
  - [数据结构02331 平时测验202210](/education/self-taught/02331-test-202210)
- 
+
  - [英语二00015-平时测验202210-test](/education/self-taught/english-202210-test)
- 
+
 
 # 英语二202010 平时测验
 
@@ -650,7 +651,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：从句子含义分析，表达的是“可行的”，因此选择A。
 
-3. **I’d rather you ___ the international conference since you have been working on this subject for several years.**
+3. **I’d rather you ___ the international conference since you have been working on this subject for several years.**`我宁愿你参加国际会议，因为你已经在这个问题上工作了几年。`
 
 - [ ] attend
 
@@ -662,7 +663,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：固定句型would rather+sb./that，后面从句中使用动词的过去式，选择B。
 
-4. **We’ve ___ sugar. Ask Mrs. Jones to lend us some.**
+4. **We’ve ___ sugar. Ask Mrs. Jones to lend us some.**`我们的糖用完了。请琼斯太太借给我们一些。`
 
 - [ ] run away with
 
@@ -674,7 +675,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：根据句子含义，表明“用完了”，选择D。
 
-5. **I ___ play tennis than golf.**
+5. **I ___ play tennis than golf.** `我宁愿打网球也不愿打高尔夫球`
 
 - [ ] like better to
 
@@ -710,7 +711,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：需要使用一个固定的短语for the sake of，因此选择C。
 
-8. **It is highly desirable that a new president ___(appoint)for this college.**
+8. **It is highly desirable that a new president ___(appoint)for this college.**`非常希望为这所学院任命一位新校长`
 
 - [ ] appointed
 
@@ -722,7 +723,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：desirable表示“合乎需要的，令人满意的”，在it is+desirable句型中，that引导的主语从句中谓语动词需要使用动词原形表示虚拟语气，因此选择B。
 
-9. **To continue to oppose is to hold ___.**
+9. **To continue to oppose is to hold ___.** `继续反对就是坚持`
 
 - [ ] up
 
@@ -734,7 +735,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：根据句子含义，表达的“延续”，因此选择C。
 
-10. **___ I sympathize with you, I am afraid there is little I can do.**
+10. **___ I sympathize with you, I am afraid there is little I can do. **`虽然我同情你，但恐怕我无能为力`
 
 - [ ] When
 
@@ -746,7 +747,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：从句子含义上分析，前后句产生了矛盾，即本句应该有转折性连词，因此选择B。
 
-11. **Scarcely had he gone out ___.**
+11. **Scarcely had he gone out ___.**  `他刚出去就开始下雪了`
 
 - [ ] that it started to snow
 
@@ -758,7 +759,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：固定句型搭配scarcely…when，选择C。
 
-12. **She ___ everything else and concentrated on the task before her．**
+12. **She ___ everything else and concentrated on the task before her．** `她把其他一切都放在一边，专心于面前的任务`
 
 - [ ] set off
 
@@ -770,7 +771,9 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：根据句子含义，表明“把…放在一遍”，A表示“出发，动身”，B表示“挫折”，D表示“建立”，选择C。
 
-13. **It was a mistake ___ Jones to sign the agreement without reading it.**
+13. **It was a mistake ___ Jones to sign the agreement without reading it.**`琼斯没有阅读就签署了协议，这是一个错误`
+
+    >  on the part of  就……而言
 
 - [ ] on the part
 
@@ -782,7 +785,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：句子含义表达的是“从Jones方面来说”，选择C，为固定短语搭配。
 
-14. **It has becoming ___(increase)difficult to find good teachers.**
+14. **It has becoming ___(increase)difficult to find good teachers.** `找到好老师变得越来越困难。`
 
 - [ ] increasing
 
@@ -804,11 +807,11 @@ In a family where the roles of men and women are not sharply separated and where
 
 - [ ] after
 
-  > 答案解析：A表示“拿走，起飞”，B表示“接管，接收”，C表示“呈现，具有”，D表示“与…相像”，根据句子含义，选择B。
+  > 答案解析：A表示“拿走，起飞”，B表示“**接管，接收**”，C表示“呈现，具有”，D表示“与…相像”，根据句子含义，选择B。
 
-16. **Country life is better than city life ___ it offers fresh air and noiseless environment.**
+16. **Country life is better than city life ___ it offers fresh air and noiseless environment. **`乡村生活比城市生活好，因为它提供新鲜空气和无声的环境`
 
-- [x] →**in that**←
+- [x] →**in that**←  `因为;原因是`
 
 - [ ] as that
 
@@ -830,7 +833,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：固定搭配，选择A。
 
-18. **These features are ___ of what we may call educated informal English.**
+18. **These features are ___ of what we may call educated informal English.** `这些特点是我们可以称之为受过教育的非正式英语的典型特征`
 
 - [ ] trivial
 
@@ -842,7 +845,7 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：句子含义上表达的是“典型的特征”，因此选择C，同时注意与C搭配的介词是of。
 
-19. **We ___ people for doing what they know is wrong.**
+19. **We ___ people for doing what they know is wrong. **`我们指责人们做了他们知道是错的事。`
 
 - [ ] dissatisfy
 
@@ -866,7 +869,9 @@ In a family where the roles of men and women are not sharply separated and where
 
   > 答案解析：从句子结构上分析，横线处一定为谓语动词，因此选择B。
 
-**We all believe that modern technology can make life better because it makes everything faster. But by ___11___ everything up, we suffer losses we have not yet learnt to know. Our day begins with speedy urges：the alarm rings and you jump ___12___ bed. You take a quick shower. Then you wake the kids and ___13___ them through breakfast so they won’t miss the bus. At the dining table, you swallow some slices of bread with a cup of tea．When everything ___14___，you hurry to the car, thinking of the things you would buy from the supermarket on the way ___15___. Driving 20 minutes in the busy traffic，you reach your workplace, rushing into the building and ___16___ up the stairs three at a time, arriving at your desk with seconds to spare. You take ___17___ deep breaths. Then, you instantly remember that the ___18___ you didn't finish last night must be faxed to Beijing by l0’clock in the morning. Yet it seems that the ___19___ we go，the further we fall behind. Not only in the literal sense of not getting done what we set out to do，___20___ at a deeper level. It has come to the point where my days feel like an Olympic marathon.**
+We all believe that modern technology can make life better because it makes everything faster. But by **11[speeding]** everything up, we suffer losses we have not yet learnt to know. Our day begins with speedy urges： the alarm rings and you jump  **12 [out of]**  bed. You take a quick shower. Then you wake the kids and  **13[rush]** them through breakfast so they won’t miss the bus. At the dining table, you swallow some slices of bread with a cup of tea． When everything **14[is done]**，you hurry to the car, thinking of the things you would buy from the supermarket on the way  **15[home]**. Driving 20 minutes in the busy traffic，you reach your workplace, rushing into the building and **16[leaping]** up the stairs three at a time, arriving at your desk with seconds to spare. You take **17[a couple of]** deep breaths. Then, you instantly remember that the  **18[project]**  you didn't finish last night must be faxed to Beijing by l0’clock in the morning. Yet it seems that the **19[faster]** we go，the further we fall behind. Not only in the literal sense of not getting done what we set out to do，**20[but also] **at a deeper level. It has come to the point where my days feel like an Olympic marathon.
+
+
 
 > 我们都相信，现代技术可以使生活变得更好，因为它使一切变得更快。但是，通过加速一切，我们遭受了我们尚未学会了解的损失。我们的一天从快速的冲动开始：警报响起，你从床上跳下来。你快速洗个澡。然后你叫醒孩子们，匆匆忙忙地吃完早餐，这样他们就不会错过公共汽车了。在餐桌上，你吞下一些面包片和一杯茶。当一切都完成后，你急忙赶往汽车，想着回家路上要从超市买的东西。在繁忙的交通中开车20分钟，你就到达了工作场所，冲进大楼，一次跳上三级楼梯，带着剩余的几秒钟到达了办公桌。你拿着
 >
@@ -1004,7 +1009,7 @@ In a family where the roles of men and women are not sharply separated and where
 
 - [ ] more than six years old
 
-- [x] →**a little more than five year sold**←
+- [x] →**a little more than five years old**←
 
   > 答案解析：找到孩子关于的年龄的词汇表达，选择D。
 
@@ -1068,7 +1073,7 @@ In a family where the roles of men and women are not sharply separated and where
 
 - [ ] politeness helps employers find proper employees
 
-- [x] →**politeness helps employers reduce the cost of staff employment**←
+- [x] →**politeness helps employers reduce the cost of staff employment**←  `礼貌有助于雇主降低员工雇佣成本`
 
   > 答案解析：找到关键词save businesses a huge amount of money every year，仔细阅读下面段落，可以得出答案，选择D。
 
@@ -1106,7 +1111,7 @@ In a family where the roles of men and women are not sharply separated and where
 
 - [ ] employees of blue-collar and physical jobs
 
-  > 答案解析：理解问题中的“不太关注表扬”的含义，并注意关键词do not pay much attention to praise，可以得出答案，选择B。
+  > 答案解析：理解问题中的“不太关注表扬”的含义，并注意关键词do not pay much attention to praise，可以得出答案，选择B。-+-+--*·-1·	
 
 40. **It can be concluded from the passage that ___.**
 
