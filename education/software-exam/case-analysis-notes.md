@@ -2,7 +2,7 @@
 title: 软考案例分析随手记
 description: 系统机构是案例分析随手记
 published: true
-date: 2022-09-28T07:23:57.826Z
+date: 2022-09-28T07:28:04.110Z
 tags: study, 软考
 editor: markdown
 dateCreated: 2022-08-26T07:57:31.531Z
@@ -318,3 +318,6 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 ## 040 什么是REST，其将哪三种关注点进行分离？
   表现层转状态移(REST)是面向资源架构的核心细思想，从资源的角度来定义整个网络系统结构，分布在各处的资源由统一资源标识符（URI）确定，客户端应用程序通过URI获取资源的表现，并通过获得资源表象使得其状态发生改变。REST中将资源、资源的表现和获取资源的动作三者进行分离。
+    数据获取方式：
+    数据交互方式：
+    上下文无关性：
