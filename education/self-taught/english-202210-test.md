@@ -2,7 +2,7 @@
 title: 英语二00015-平时测验202210
 description: 英语二00015-平时测验202210
 published: true
-date: 2022-09-28T09:41:28.897Z
+date: 2022-09-29T08:41:20.242Z
 tags: study, 自考
 editor: markdown
 dateCreated: 2022-09-20T02:50:13.643Z
@@ -2003,7 +2003,10 @@ We all believe that modern technology can make life better because it makes ever
 
   > 答案解析：句子含义表达“就…进行评论”，因此选择C。
 
-**One day last summer a boy of 10 took an ole type from ___11___ garage and went down to the beach to bathe, although he couldn’t swim and his mother had ___12___ go near the water. But he felt hot so he took no notice of her warning. Before long the wind blew him out of sea. His sister saw him but by this time he was ___13___ far out for anyone to reach him. Then someone had the ___14___ up the coastguards. In a few minutes a helicopter was ___15___ flying over the boy and he was soon pulled to safety. Cases like this happen every day ___16___ summer and sometimes people are not so lucky. What surprises coastguards is that people ___17___ on special clothes and take all kinds of precautions when they go climbing often go out in small boats without ___18___ safety equipment or means of signaling for help. They don’t realize, either, that it is as easy to die of exposure at sea as ___19___ on top of a mountain, so that unless the coastguards see they are ___20___, it will be too late to save them.**
+  One day last summer a boy of 10 took an ole type from ___11___ garage and went down to the beach to bathe, although he couldn’t swim and his mother had ___12___ go near the water. But he felt hot so he took no notice of her warning. Before long the wind blew him out of sea. His sister saw him but by this time he was ___13___ far out for anyone to reach him. Then someone had the ___14___ up the coastguards. In a few minutes a helicopter was ___15___ flying over the boy and he was soon pulled to safety. Cases like this happen every day ___16___ summer and sometimes people are not so lucky. What surprises coastguards is that people ___17___ on special clothes and take all kinds of precautions when they go climbing often go out in small boats without ___18___ safety equipment or means of signaling for help. They don’t realize, either, that it is as easy to die of exposure at sea as ___19___ on top of a mountain, so that unless the coastguards see they are ___20___, it will be too late to save them.
+  
+>  11 - 15 ： his father’s |  told him not to | too | idea of ringing | already
+>  16 -20      in          |       who put    | any |  it is          | in trouble
 
 > 去年夏天的一天，一个10岁的男孩从他父亲的车库里拿了一个旧玩具，去海滩洗澡，尽管他不会游泳，而且他母亲告诉他不要靠近水。但他觉得很热，所以没有注意到她的警告。不久，风把他吹出了大海。他的姐姐看到了他，但这时他已经走得太远了，任何人都无法找到他。然后有人想到给海岸警卫队打电话。几分钟后，一架直升机已经从男孩身上飞过，他很快被拉到了安全地带。这种情况在夏天每天都会发生，有时人们就没那么幸运了。让海岸警卫队感到惊讶的是，那些在登山时穿上特殊衣服并采取各种预防措施的人，往往在没有任何安全设备或信号的情况下乘坐小船外出求救。他们也没有意识到，在海上暴露死亡和在山顶暴露一样容易，所以除非海岸警卫队看到他们有麻烦，否则拯救他们为时已晚。
 
