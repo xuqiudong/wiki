@@ -2,7 +2,7 @@
 title: 反向代理域名缓存引起的504 Gateway Time-out
 description: 反向代理域名缓存引起的504 Gateway Time-out
 published: true
-date: 2022-08-15T02:21:43.434Z
+date: 2022-09-29T01:51:12.826Z
 tags: mine-linux, nginx
 editor: markdown
 dateCreated: 2022-08-15T01:47:23.978Z
@@ -48,3 +48,4 @@ resolver_timeout 3s;
 - `valid`设置DNS缓存失效时间。  也应适当考虑下效率什么的。
 - `resolver_timeout` 指定解析域名时，DNS服务器的超时时间
 
+[详解proxy_pass、upstream与resolver](https://www.jianshu.com/p/5caa48664da5)
