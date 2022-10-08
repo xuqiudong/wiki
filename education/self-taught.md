@@ -2,7 +2,7 @@
 title: 本科:自考
 description: 计算机科学与技术- 合肥工业大学
 published: true
-date: 2022-09-20T02:53:44.154Z
+date: 2022-10-08T08:23:27.314Z
 tags: 学历
 editor: markdown
 dateCreated: 2022-06-13T06:01:02.328Z
@@ -14,6 +14,8 @@ dateCreated: 2022-06-13T06:01:02.328Z
 [中国近代史纲要](/education/self-taught/history)
 
 [近代史：主观题汇总](/education/self-taught/history-subjective)
+
+[英语二作文模板](/education/self-taught/eglish-composition-template)
 
 **202210 平时测验：**
  - [近代史03708-平时测验202210](/education/self-taught/history-202210-test)
