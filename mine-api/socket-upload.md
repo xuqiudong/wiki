@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-09-26T01:49:12.893Z
+date: 2022-10-09T09:46:01.428Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -38,6 +38,10 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
    
 ## API 相关说明
 ### socket地址 `/ws/upload`
+> 1. 若前端header中可以携带cookie信息，则无需额外处理
+> 2. 若前端无法在握手时在header中携带cookie信息，则需在soket地址中携带sessionId
+>    形如：`/ws/upload?sid=sessionId`
+
 
 ### socket返回数据格式
 > 统一返回json字符串
