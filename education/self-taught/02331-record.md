@@ -2,7 +2,7 @@
 title: 02331数据结构随手记
 description: 02331数据结构随手记
 published: true
-date: 2022-10-21T23:14:26.600Z
+date: 2022-10-21T23:15:12.937Z
 tags: study
 editor: markdown
 dateCreated: 2022-10-21T11:53:03.603Z
@@ -209,7 +209,7 @@ void f(int A[], int n){
 int f(SeqList r, int n){
     for(int i=0;i<n-1;i++){
         for(int j=0; j<n-1-i; j++) {
-            if(r[j].key<r[j1].key) {
+            if(r[j].key<r[j+1].key) {
                 //swap
             }
         }
