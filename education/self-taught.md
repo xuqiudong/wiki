@@ -2,7 +2,7 @@
 title: 本科:自考
 description: 计算机科学与技术- 合肥工业大学
 published: true
-date: 2022-10-21T11:54:08.509Z
+date: 2022-10-21T11:54:38.122Z
 tags: 学历
 editor: markdown
 dateCreated: 2022-06-13T06:01:02.328Z
@@ -24,6 +24,7 @@ dateCreated: 2022-06-13T06:01:02.328Z
  
  - [英语二00015-平时测验202210-test](/education/self-taught/english-202210-test)
  
+**随手记**
  
  [02331-数据结构随手记](/education/self-taught/02331-record)
 
