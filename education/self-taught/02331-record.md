@@ -2,7 +2,7 @@
 title: 02331数据结构随手记
 description: 02331数据结构随手记
 published: true
-date: 2022-10-21T11:53:03.603Z
+date: 2022-10-21T23:14:12.563Z
 tags: study
 editor: markdown
 dateCreated: 2022-10-21T11:53:03.603Z
@@ -208,8 +208,8 @@ void f(int A[], int n){
 ```c
 int f(SeqList r, int n){
     for(int i=0;i<n-1;i++){
-        for(int j=i+1; j<n; j++) {
-            if(r[i].key<r[j].key) {
+        for(int j=0; j<n-1-i; j++) {
+            if(r[j].key<r[j1].key) {
                 //swap
             }
         }
