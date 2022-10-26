@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-10-26T05:58:47.041Z
+date: 2022-10-26T05:58:52.196Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
