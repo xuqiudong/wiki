@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-10-09T09:46:01.428Z
+date: 2022-10-26T10:57:10.564Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -65,6 +65,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 |   2004   |  上传文件分片错误    |      |
 |   2005   |  文件长度溢出    |      |
 |   2006   |  不合法文件业务类型    |      |
+|   2007   |  当前文件正在上传处理中    |  文件正在上传中或者没有处理完毕    |
 |   3001   |  不存在的参数项    |      |
 |   3003   |  识别号已存在   |      |
    
