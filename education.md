@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-12-16T03:34:39.333Z
+date: 2022-12-16T03:35:14.711Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -36,6 +36,7 @@ dateCreated: 2022-06-13T06:00:45.902Z
 
  ### 三 [软考架构师](/education/software-exam) 已完成
   > 2022-05(决定参加2023年的软考) —— 至今
+  > 2022-11月参考，12月出成绩，考过了。
 
  
 |时间 | 高职 | 自考 | 软考
