@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2022-09-16T09:31:11.535Z
+date: 2022-12-16T03:55:09.671Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
@@ -49,3 +49,4 @@ dateCreated: 2022-06-13T06:00:53.930Z
 5. 附件：https://attachment.xuqiudong.cn:88
 6. 后台：https://console.xuqiudong.cn:88
 7. 在线日志查看：https://readlog.xuqiudong.cn:88
+
