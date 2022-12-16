@@ -2,7 +2,7 @@
 title: education
 description: 我的学习经历
 published: true
-date: 2022-12-16T00:58:38.531Z
+date: 2022-12-16T03:34:39.333Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T06:00:45.902Z
@@ -34,7 +34,7 @@ dateCreated: 2022-06-13T06:00:45.902Z
   >  2020年12月决定准备自考 ，专业为：计算机科学与技术；院校为合肥工业大学
   - 2022年4月的自考因为疫情取消了
 
- ### 三 [软考架构师](/education/software-exam) 
+ ### 三 [软考架构师](/education/software-exam) 已完成
   > 2022-05(决定参加2023年的软考) —— 至今
 
  
