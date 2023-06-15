@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-06-15T06:32:20.920Z
+date: 2023-06-15T06:33:03.700Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -30,15 +30,15 @@ dateCreated: 2022-06-13T03:22:17.187Z
 - [nginx](/development/nginx)
 - [随手记](/development/note/home)
 - [常见面试题](/development/interview)
-
+.
 
 ### [学习经历](/education)
 `少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
 **少而好学，如日出之阳；壮而好学，如日中之光；老而好学，如炳烛之明**
-- [学习经历时间轴](/education/timeline)
-- [高职](/education/college)
-- [自考](/education/self-taught)
-- [软考-架构师](/education/software-exam)
+- [**学习经历时间轴**](/education/timeline)
+- [**高职**](/education/college)
+- [**自考**](/education/self-taught)
+- [**软考-架构师**](/education/software-exam)
   - [架构风格汇总](/education/software-exam/architecture-style-summary)
   - [软考案例分析随手记](/education/software-exam/case-analysis-notes)
   - [thesis-preparation](/education/software-exam/thesis-preparation)
