@@ -2,13 +2,16 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-06-15T06:36:33.887Z
+date: 2023-06-15T06:38:24.394Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
 ---
 
 [我的博客](https://xuqiudong.cn/)
+
+```
+```
 # wiki内导航
 
 ## [我的linux](/mine-linux)
@@ -19,10 +22,16 @@ dateCreated: 2022-06-13T03:22:17.187Z
   - [003-ddns](/mine-linux/003-ddns)
   - [mysql主从备份](/mine-linux/mysql-master-slave)
 
+
+---
+
   
 ##  [API](/mine-api)
 `  一些项目说明和api`
   -  [socket-upload](/mine-api/socket-upload)
+
+
+---
 
 ## [development](/development)
 ` 开发上的一些记录，如学习和debug等。`
@@ -32,6 +41,8 @@ dateCreated: 2022-06-13T03:22:17.187Z
 - [常见面试题](/development/interview)
 
 
+
+---
 
 ## [学习经历](/education)
 `少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
@@ -46,10 +57,13 @@ dateCreated: 2022-06-13T03:22:17.187Z
   - [软考专业英语试题](/education/software-exam/eglish)
 - 
 
-## personal
+---
+
+## 个人
 
 - [值得一看的电影](/personal/movie)
-
+- [书单](/personal/book)
+- 
 
 
 
