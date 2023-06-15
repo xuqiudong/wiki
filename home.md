@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-06-15T06:29:32.232Z
+date: 2023-06-15T06:30:53.729Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -33,10 +33,8 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 
 ### [学习经历](/education)
-``` 
-少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。
-少而好学，如日出之阳；壮而好学，如日中之光；老而好学，如炳烛之明
-```
+`少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
+**少而好学，如日出之阳；壮而好学，如日中之光；老而好学，如炳烛之明**
 - [学习经历时间轴](/education/timeline)
 - [高职](/education/college)
 - [自考](/education/self-taught)
