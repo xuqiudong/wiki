@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-06-15T06:38:24.394Z
+date: 2023-06-20T07:39:23.540Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -33,11 +33,11 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 ---
 
-## [development](/development)
+## [开发](/development)
 ` 开发上的一些记录，如学习和debug等。`
 - [debug](/development/debug)
 - [nginx](/development/nginx)
-- [随手记](/development/note/home)
+- [Springboot随手记](development/note/springboot)
 - [常见面试题](/development/interview)
 
 
