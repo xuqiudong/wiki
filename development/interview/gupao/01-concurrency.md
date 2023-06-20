@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-06-20T09:14:06.463Z
+date: 2023-06-20T09:18:31.548Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -44,7 +44,7 @@ CountDownLatch 和 Semaphore 都是用到了 AQS 中的共享锁功能。
 4. 无界队列存在比较大的潜在风险，如果在并发量较大的情况下，线程池中可以几乎无限制的添加任务，容易导致内存溢出的问题！
 
 # 05 ConcurrentHashMap 底层具体实现？实现原理是什么
-1. ** 整体结构：** ConcurrentHashMap 在 JDK1.8 中的存储结构，它由数组、单向链表、红黑树组成。  
+1. **整体结构**： ConcurrentHashMap 在 JDK1.8 中的存储结构，它由数组、单向链表、红黑树组成。  
   - 默认初始化一个长度为16的数组
   - 核心是hash表，依然存在hash冲突，ConcurrentHashMap采用链式寻址法来解决 hash 冲突。
   - 当 hash 冲突比较多的时候，会造成链表长度较长，这种情况会使得ConcurrentHashMap 中数据元素的查询复杂度变成 O(n)。因此在 JDK1.8 中，引入了红黑树的机制。
