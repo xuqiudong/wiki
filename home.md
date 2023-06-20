@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-06-20T07:39:23.540Z
+date: 2023-06-20T07:39:46.179Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
@@ -28,7 +28,7 @@ dateCreated: 2022-06-13T03:22:17.187Z
   
 ##  [API](/mine-api)
 `  一些项目说明和api`
-  -  [socket-upload](/mine-api/socket-upload)
+  -  [基于socket的文件上传](/mine-api/socket-upload)
 
 
 ---
