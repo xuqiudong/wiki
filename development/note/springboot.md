@@ -2,7 +2,7 @@
 title: springboot随手记
 description: 记录开发中遇到的或着解决的一些小问题，留用
 published: true
-date: 2023-06-21T09:23:22.532Z
+date: 2023-06-21T09:37:10.505Z
 tags: development, note
 editor: markdown
 dateCreated: 2023-05-30T08:55:08.671Z
@@ -54,7 +54,7 @@ spingboot2.7.x源码参见：
   
 [SpringBoot tomcat定制化实现原理](https://blog.csdn.net/guiyiba/article/details/121785184)
   
-## 002 springboot无法获取nginx代理的schema
+## 002 springboot无法获取nginx代理的scheme
 - nginx版本:1.18+
 - springboot版本：2.7.3
 > 问题描述：nginx配置https后，springboot从request中获取的schema依然是http而不是https。
