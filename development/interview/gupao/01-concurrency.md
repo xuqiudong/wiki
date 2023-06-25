@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-06-25T07:31:56.548Z
+date: 2023-06-25T09:06:03.163Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -69,4 +69,20 @@ CountDownLatch 和 Semaphore 都是用到了 AQS 中的共享锁功能。
 - CompareAndSwap 的底层实现中，在多核 CPU 环境下，会增加一个 Lock指令对缓存或者总线加锁，从而保证比较并替换这两个指令的原子性。
 - CAS 主要用在并发场景中，比较典型的使用场景有两个。
   1. J.U.C 里面 Atomic 的原子实现，比如 AtomicInteger，AtomicLong。
-  2. 实现多线程对共享资源竞争的互斥性质，比如在 AQS、ConcurrentHashMap、ConcurrentLinkedQueue 等都有用到
+  2. 实现多线程对共享资源竞争的互斥性质，比如在 AQS、ConcurrentHashMap、ConcurrentLinkedQueue 等都有用到。
+  
+## 07 死锁的发生原因和怎么避免
+- 原因：多线程下对共享资源竞争造成相互等待的现象。
+ - 1. 互斥条件
+ - 2. 不可剥夺条件
+ - 3. 请求和保持条件： 不释放资源
+ - 4. 循环等待条件
+- 死锁后，只能听哦那个给人工干预来解决，比如重启，或kill进程。
+- 对于请求和保持：一次性申请全部的资源
+- 不可剥夺：申请资源失败，可主动释放它占有的资源
+- 循环等待：按序申请资源，先申请小的，再申请大的。
+
+## 08 volatile关键字的作用和实现原理
+- 作用：
+	1. 保证多线程下共享变量的可见性
+  2. 增加内存屏障防止多个智力之间的重排序
