@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-06-25T07:27:57.031Z
+date: 2023-06-25T07:28:29.874Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -65,5 +65,5 @@ CountDownLatch 和 Semaphore 都是用到了 AQS 中的共享锁功能。
     b. 如果线程竞争激烈，使用一个数组来维护元素个数，如果要增加总的元素个数，则直接从数组中随机选择一个，再通过 CAS 实现原子递增。它的核心思想是引入了数组来实现对并发更新的负载。
     
 ## 06 CAS机制
-
+- CAS 是 Java 中 Unsafe 类里面的方法，它的全称是 CompareAndSwap，比较并交换的意思。它的主要功能是能够保证在多线程环境下，对于共享变量的修改的原子性。
     
