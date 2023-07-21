@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-07-21T06:23:00.897Z
+date: 2023-07-21T07:35:11.997Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -103,3 +103,5 @@ CountDownLatch 和 Semaphore 都是用到了 AQS 中的共享锁功能。
 调用 wait 线程和 notify 线程必须拥有相同对象锁。
 wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代码块中。
 1. wait 和 notify 用来实现多线程之间的协调，wait 表示让线程进入到阻塞状态，notify 表示让阻塞的线程唤醒。
+2. 二者必须成对出现，从而实现多线程之间的通信。
+
