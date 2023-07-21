@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-07-20T09:48:21.098Z
+date: 2023-07-21T06:23:00.897Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -97,3 +97,9 @@ CountDownLatch 和 Semaphore 都是用到了 AQS 中的共享锁功能。
   - 2.2 编译器的优化，编译器在编译的过程中，在不改变单线程语义和程序正确性的前提下，对指令进行合理的重排序优化来提升性能。 所以，如果对共享变量增加了 volatile 关键字，那么在编译器层面，就不会去触发编译器优化，同时再 JVM 里面，会插入内存屏障指令来避免重排序问题。
   
 - 除了 volatile 以外，从 JDK5 开始，JMM 就使用了一种 Happens-Before 模型去描述多线程之间的内存可见性问题。如果两个操作之间具备 Happens-Before 关系，那么意味着这两个操作具备可见性关系，不需要再额外去考虑增加 volatile 关键字来提供可见性保障。  
+
+# 09 wait 和 notify为什么要在synchronized 代码块中
+> **实现 wait/notify 机制的条件**：
+调用 wait 线程和 notify 线程必须拥有相同对象锁。
+wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代码块中。
+1. wait 和 notify 用来实现多线程之间的协调，wait 表示让线程进入到阻塞状态，notify 表示让阻塞的线程唤醒。
