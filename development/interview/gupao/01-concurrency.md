@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-07-21T07:35:11.997Z
+date: 2023-07-21T07:41:11.731Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -104,4 +104,10 @@ CountDownLatch 和 Semaphore 都是用到了 AQS 中的共享锁功能。
 wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代码块中。
 1. wait 和 notify 用来实现多线程之间的协调，wait 表示让线程进入到阻塞状态，notify 表示让阻塞的线程唤醒。
 2. 二者必须成对出现，从而实现多线程之间的通信。
+3.  Synchronized 可以实现一个等待一个唤醒这样的互斥条件
+4. 为了避免 wait/notify 的错误使用，jdk 强制要求把 wait/notify 写在同步代码块里面，否则会抛出 IllegalMonitorStateException
+5. wait/notify 的特性，非常适合实现生产者消费者的模型
 
+# 10 ThreadLocal的实现原理
+1. ThreadLocal 是一种线程隔离机制，提供多线程环境下对于共享变量的安全访问。
+2. ThreadLocal 用了一种空间换时间的设计思想，也就是说在每个线程里面，都有一个容器来存储共享变量的副本，然后每个线程只对自己的变量副本来做更新操作，这样既解决了线程安全问题，又避免了多线程竞争加锁的开销。
