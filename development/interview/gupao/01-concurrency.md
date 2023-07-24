@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-07-24T07:59:08.339Z
+date: 2023-07-24T08:00:06.276Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -133,3 +133,4 @@ wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代�
 
 # 13 什么是可重入，什么是可重入锁? 它用来解决什么问题?
 1. 一个线程如果抢占到了互斥锁资源，在锁释放之前再去竞争同一把锁的时候，不需要等待，只需要记录重入次数。
+2.  Synchronized、ReentrantLock 等可重入。读写锁StampedLock不可重入。
