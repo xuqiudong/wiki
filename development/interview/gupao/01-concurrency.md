@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-07-24T08:02:54.257Z
+date: 2023-07-24T08:04:26.359Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -140,4 +140,6 @@ wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代�
 1. ReentrantLock 是一种可重入的排它锁，主要用来解决多线程对共享资源竞争的问题。
 2. 特性：
 	- 2.1  支持可重入 ： 获得锁的线程在释放锁之前再次去竞争同一把锁的时候，不需要加锁就可以直接访问
-  - 2.2  
+  - 2.2  支持公平和非公平特性
+  - 2.3  提供了阻塞竞争锁和非阻塞竞争锁的两种方法，分别是 lock()和 tryLock()。
+  
