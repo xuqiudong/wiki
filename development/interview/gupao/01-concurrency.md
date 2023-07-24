@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-07-24T08:00:06.276Z
+date: 2023-07-24T08:02:35.969Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -133,4 +133,11 @@ wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代�
 
 # 13 什么是可重入，什么是可重入锁? 它用来解决什么问题?
 1. 一个线程如果抢占到了互斥锁资源，在锁释放之前再去竞争同一把锁的时候，不需要等待，只需要记录重入次数。
-2.  Synchronized、ReentrantLock 等可重入。读写锁StampedLock不可重入。
+2. Synchronized、ReentrantLock 等可重入。读写锁StampedLock不可重入。
+3. 锁的可重入性，主要解决的问题是**避免线程死锁的问题**。  因为一个已经获得同步锁 X 的线程，在释放锁 X 之前再去竞争锁 X 的时候，相当于会出现自己要等待自己释放锁，这很显然是无法成立的。
+
+# 14 ReentrantLock 的实现原理
+1. ReentrantLock 是一种可重入的排它锁，主要用来解决多线程对共享资源竞争的问题。
+2. 特性：
+	- 2.1  支持可重入
+  - 2.2 
