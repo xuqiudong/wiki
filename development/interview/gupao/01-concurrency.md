@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-08-03T08:47:01.089Z
+date: 2023-08-03T09:27:45.406Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -177,3 +177,10 @@ wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代�
   - 3.2 非公平锁：先尝试抢占资源，抢不到再加入。
 4. 默认非公平，应该是考虑到 AQS 再把等待队列里面的线程唤醒，这里会涉及到内核态的切换， 如果是非公平策略，当前线程正好在上一个线程释放锁的临界点抢占到了锁，就意味着这个线程不需要切换到内核态，虽然对原本应该要被唤醒的线程不公平，但是提升了锁竞争的性能。
   
+# 18 线程状态BLOCKED 和 WAITING 的区别  
+1. 都属于下城的阻塞等待状态
+2. BLOCKED 状态是指线程在等待监视器锁的时候的阻塞状态。也就是在多个线程去竞争 Synchronized 同步锁的时候，没有竞争到锁资源的线程，会被阻塞等待，这个时候线程状态就是 BLOCKED。
+3. WAITING 状态，表示线程的等待状态，在这种状态下，线程需要等待某个线程的特定操作才会被唤醒。我们可以使用 Object.wait()、Object.join()、LockSupport.park()这些方法使得线程进入到 WAITING 状态，在这个状态下，必须要等待特定的方法来唤醒，比如 Object.notify 方法可以唤醒 Object.wait()方法阻塞的线程LockSupport.unpark()可以唤醒 LockSupport.park()方法阻塞的线程
+4. 二者的区别；
+ - 4.1 BLOCKED 是锁竞争失败后被被动触发的状态，WAITING 是人为的主动触发的状态
+ - 4.2 BLCKED 的唤醒时自动触发的，而 WAITING 状态是必须要通过特定的方法来主动唤醒
