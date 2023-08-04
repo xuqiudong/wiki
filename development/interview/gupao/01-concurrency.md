@@ -2,7 +2,7 @@
 title: java并发编程基础
 description: 
 published: true
-date: 2023-08-04T09:49:52.996Z
+date: 2023-08-04T09:58:13.165Z
 tags: 咕泡, 并发, 面试
 editor: markdown
 dateCreated: 2023-06-20T08:09:20.098Z
@@ -215,3 +215,12 @@ wait() 方法和 notify()/notifyAll() 方法必须在 Synchronized 方法或代�
  # 22 Java 官方提供了哪几种线程池，分别有什么特点
  > Executors
  1. newCachedThreadPool: 一种可以缓存的线程池，它可以用来处理大量短期的突发流量。
+   > 最大线程数是 Integer.MaxValue，线程存活时间是 60 秒，阻塞队列用的是 SynchronousQueue，这是一种不存才任何元素的阻塞队列，也就是每提交一个任务给到线程池，都会分配一个工作线程来处理，由于最大线程数没有限制。所以它可以处理大量的任务，另外每个工作线程又可以存活 60s，使得这些工作线程可以缓存起来应对更多任务的处理。
+2. newFixedThreadPool: 一种固定线程数量的线程池。   
+ > 核心线程和最大线程数量都是一个固定的值,如果任务比较多工作线程处理不过来，就会加入到阻塞队列里面等待。,
+3. newSingleThreadExecutor:  只有一个工作线程的线程池。
+ > 线程数量无法动态更改，因此可以保证所有的任务都按照 FIFO 的方式顺序执行。
+4. newScheduledThreadPool: 具有延迟执行功能的线程池,  可以用它来实现定时调度
+5. newWorkStealingPool: Java8 里面新加入的一个线程池它内部会构建一个 ForkJoinPool，利用工作窃取的算法并行处理请求。
+
+6. 这些线程都是通过工具类 Executors 来构建的，线程池的最终实现类是 ThreadPoolExecutor。
