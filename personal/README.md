@@ -2,7 +2,7 @@
 title: README
 description: 
 published: true
-date: 2023-08-15T07:17:30.651Z
+date: 2023-08-15T07:18:18.166Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-15T02:00:20.017Z
@@ -15,5 +15,5 @@ dateCreated: 2023-08-15T02:00:20.017Z
 
 ## 娱乐
 
-[游戏](/personal/entertainmen)
+[游戏](/personal/entertainment)
 
