@@ -2,15 +2,20 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-06-20T07:39:46.179Z
+date: 2023-08-15T02:12:40.777Z
 tags: nav
 editor: markdown
 dateCreated: 2022-06-13T03:22:17.187Z
 ---
 
+# docsify和wiki共用首页
+
+[docsify](https://docsify.js.org/#/zh-cn/)
+
 [我的博客](https://xuqiudong.cn/)
 
 ```
+
 ```
 # wiki内导航
 
@@ -22,14 +27,12 @@ dateCreated: 2022-06-13T03:22:17.187Z
   - [003-ddns](/mine-linux/003-ddns)
   - [mysql主从备份](/mine-linux/mysql-master-slave)
 
-
 ---
 
-  
+
 ##  [API](/mine-api)
 `  一些项目说明和api`
   -  [基于socket的文件上传](/mine-api/socket-upload)
-
 
 ---
 
@@ -37,7 +40,7 @@ dateCreated: 2022-06-13T03:22:17.187Z
 ` 开发上的一些记录，如学习和debug等。`
 - [debug](/development/debug)
 - [nginx](/development/nginx)
-- [Springboot随手记](development/note/springboot)
+- [Springboot随手记](/development/note/springboot)
 - [常见面试题](/development/interview)
 
 
@@ -69,6 +72,7 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 
 ```
+
 ```
 # 我的导航
 `  服务器上起的服务多了，难免忘掉，写个导航页记录一下。`
@@ -79,10 +83,10 @@ dateCreated: 2022-06-13T03:22:17.187Z
 
 
 ```
+
 ```
 
 
 ## 其他信息
 
 1. [图标fontawesome](https://fontawesome.com/v4/icons/)
-
