@@ -1,101 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">  
-   <title>临窗旋墨WIKI</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <link rel="icon" href="lcxm.ico" type="image/ico">
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <meta name="keywords" content="临窗旋墨的WIKI,许秋冬的博客,java技术,spring相关技术栈" />
-  <meta name="description" content="许秋冬的个人信息pager,考试相关,游戏,装机软件等" />
-  
-    <!-- Begin SEO tag -->
-	<title>个人:临窗旋墨</title>
-	<meta property="og:locale" content="zh_CN" />
-	<meta property="og:site_name" content="临窗旋墨的pager" />
-	<meta property="og:url" content="https://www.xuqiudong.cn/" />
-	<meta property="og:title" content="临窗旋墨" />
-	<meta property="og:description" content="临窗旋墨的博客,专注java技术,分享springboot,springcloud,mybatis,mysql,redis,maven,git,mq等常用技术或者框架的使用;源码分析,javaweb开发问题解决等" />
-	<link rel="canonical" href="https://www.xuqiudong.cn/" />
-  
-</head>
-<body>
-  <div id="app"></div>
-  <script>
-   window.$docsify = {
-	  //loadSidebar: true,
-      maxLevel: 4,//最大支持渲染的标题层级
-      loadNavbar: true,
-	  //name:'临窗旋墨',
-	  nameLink:'https://xuqiudong.cn/',
-	  repo:'https://gitee.com/xuqiudong/',
-	  formatUpdated: '{MM}/{DD} {HH}:{mm}',
-	  search:{
-		maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-		paths: 'auto', // [] or 'auto'
-        placeholder: '输入要查询的内容',
-		noData: '没有找到对应的内容!',
-		depth: 5,
-		
-	  },
-	  scrollToTop: { //返回顶部
-		auto: true,
-		text: '顶部',
-		right: 15,
-		bottom: 15,
-		offset: 500
-	  },
-	  count:{//字数统计
-	      countable:true,
-		  position:'top',
-	      fontsize:'0.9em',
-	      color:'rgb(90,90,90)',
-	      language:'chinese'
-	    },
-		plugins: [
-		  function(hook) {
-			  var footer = [
-				'<hr/>',
-				'<footer>',
-				'<div align="center" style="padding-top: 15px;">' +
-					 '   Copyright © 2020 许秋冬 <a href="https://xuqiudong.cn/" target="lcxm_blog">博客地址 </a>' +
-					'</div>',
-				'</footer>'
-			  ].join('');
+	<head>
+		<meta charset="UTF-8">
+		<title>临窗旋墨WIKI</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link rel="icon" href="lcxm.ico" type="image/ico">
+		<meta name="description" content="Description">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+		<meta name="keywords" content="临窗旋墨的WIKI,许秋冬的博客,java技术,spring相关技术栈" />
+		<meta name="description" content="许秋冬的个人信息pager,考试相关,游戏,装机软件等" />
 
-			  hook.afterEach(function(html) {
-				return html + footer;
-			  });
-				hook.ready(function() {
-				    window.$nojs(document);
-				  
-		        });
-		      }
-		]
-    };
-  
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- 
+		<!-- Begin SEO tag -->
+		<title>个人:临窗旋墨</title>
+		<meta property="og:locale" content="zh_CN" />
+		<meta property="og:site_name" content="临窗旋墨的pager" />
+		<meta property="og:url" content="https://www.xuqiudong.cn/" />
+		<meta property="og:title" content="临窗旋墨" />
+		<meta property="og:description" content="临窗旋墨的博客,专注java技术,分享springboot,springcloud,mybatis,mysql,redis,maven,git,mq等常用技术或者框架的使用;源码分析,javaweb开发问题解决等" />
+		<link rel="canonical" href="https://www.xuqiudong.cn/" />
+
+	</head>
+	<body>
+		<div id="app">正在加载，不要着急</div>
+		<script>
+			window.$docsify = {
+				loadSidebar: true, // 加载侧边栏
+				subMaxLevel: 4,
+				maxLevel: 4, //最大支持渲染的标题层级
+				loadNavbar: true, // 加载导航栏
+				//name:'临窗旋墨',
+				nameLink: 'https://xuqiudong.cn/',
+				repo: 'https://gitee.com/xuqiudong/',
+				formatUpdated: '{MM}/{DD} {HH}:{mm}',
+				search: {
+					maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+					paths: 'auto', // [] or 'auto'
+					placeholder: '输入要查询的内容',
+					noData: '没有找到对应的内容!',
+					depth: 5,
+
+				},
+				scrollToTop: { //返回顶部
+					auto: true,
+					text: '顶部',
+					right: 15,
+					bottom: 15,
+					offset: 500
+				},
+				count: { //字数统计
+					countable: true,
+					position: 'top',
+					fontsize: '0.9em',
+					color: 'rgb(90,90,90)',
+					language: 'chinese'
+				},
+				plugins: [
+					function(hook) {
+						var footer = [
+							'<hr/>',
+							'<footer>',
+							'<div align="center" style="padding-top: 15px;">' +
+							'   Copyright © 2020 许秋冬 <a href="https://xuqiudong.cn/" target="lcxm_blog">博客地址 </a>' +
+							'</div>',
+							'</footer>'
+						].join('');
+
+						hook.afterEach(function(html) {
+							return html + footer;
+						});
+						hook.ready(function() {
+							if (window.$nojs) {
+								window.$nojs(document);
+							}
+						});
+					}
+				]
+			};
+		</script>
+		<!-- Docsify v4 -->
+		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+		<!-- 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   -->
-  <!--全文搜索,直接用官方提供的无法生效-->
-  <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
-  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-   <script>
-	  //百度统计
-	  var _hmt = _hmt || [];
-	  (function() {
-	    var hm = document.createElement("script");
-	    hm.src = "https://hm.baidu.com/hm.js?e4b0c1e5e920c8e77bc3a9fba20b0872";
-	    var s = document.getElementsByTagName("script")[0]; 
-	    s.parentNode.insertBefore(hm, s);
-	  })();
-  </script>
-</body>
+		<!--全文搜索,直接用官方提供的无法生效-->
+		<script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+		<script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+		<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+		<script>
+			//百度统计
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?e4b0c1e5e920c8e77bc3a9fba20b0872";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</body>
 </html>

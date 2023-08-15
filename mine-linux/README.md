@@ -14,6 +14,12 @@ dateCreated: 2022-06-13T06:00:53.930Z
 
 [001- 买个迷你主机当`linux`服务器使用](/mine-linux/001)
 
+[002-新建systemctl  service的java开机启动项](/mine-linux/002)
+
+[003-动态域名解析ddns](/mine-linux/003)
+
+[004-mysql8.0主从备份](/mine-linux/004-mysql-master-slave)
+
 ## 服务地址
 
 ### ~~基于tplink提供的免费ddns地址：xuqiudong.tpddns.cn~~
@@ -25,7 +31,7 @@ dateCreated: 2022-06-13T06:00:53.930Z
 3. wiki.js：   http://xuqiudong.tpddns.cn:3000/  
 4. nextcloud 个人云盘，同步盘 http://xuqiudong.tpddns.cn:83/  
  - 基于php 运行在7000端口，被nginx反向代理 
- 
+
 ## 更换了路由器不再是tplink，因此xuqiudong.tpddns.cn失效
 > 2022-08-01
 ### 申请了freedns的免费二级域名xuqiudong.us.to
