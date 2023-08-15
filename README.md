@@ -1,9 +1,9 @@
 ---
-title: README
-description: 
+title: 首页
+description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-08-15T02:06:12.823Z
-tags: 
+date: 2023-08-15T02:11:10.869Z
+tags: nav, docsify和wiki的共用首页
 editor: markdown
 dateCreated: 2023-08-11T09:34:09.200Z
 ---
