@@ -2,24 +2,26 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-08-15T02:18:55.129Z
+date: 2023-08-15T02:40:02.861Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
 ---
 
-# docsify和wiki共用首页
+# [docsify](https://docsify.js.org/#/zh-cn/)和wiki共用首页
 
-[docsify](https://docsify.js.org/#/zh-cn/)
+
 
 [我的博客](https://xuqiudong.cn/)
+
+[本wiki的gitpage地址](https://xuqiudong.github.io/wiki/)
 
 ```
 
 ```
 # wiki内导航
 
-## [我的linux](/mine-linux)
+## [我的linux](/mine-linux/README)
 `自己买了台迷你电脑当服务器，记录一下事项。`
 
   - [001-买了台迷你主机安装ubuntu server](/mine-linux/001)
@@ -30,13 +32,13 @@ dateCreated: 2023-08-15T02:18:55.129Z
 ---
 
 
-##  [API](/mine-api)
+##  [API](/mine-api/README)
 `  一些项目说明和api`
   -  [基于socket的文件上传](/mine-api/socket-upload)
 
 ---
 
-## [开发](/development)
+## [开发](/development/README)
 ` 开发上的一些记录，如学习和debug等。`
 - [debug](/development/debug)
 - [nginx](/development/nginx)
@@ -47,7 +49,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 ---
 
-## [学习经历](/education)
+## [学习经历](/education/README)
 `少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
 **少而好学，如日出之阳；壮而好学，如日中之光；老而好学，如炳烛之明**
 - [**学习经历时间轴**](/education/timeline)
