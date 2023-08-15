@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: true
+date: 2023-08-15T02:06:12.823Z
+tags: 
+editor: markdown
+dateCreated: 2023-08-11T09:34:09.200Z
+---
+
 # 基于docsify的wiki首页
 
 [docsify](https://docsify.js.org/#/zh-cn/)
@@ -30,7 +40,7 @@
 ` 开发上的一些记录，如学习和debug等。`
 - [debug](/development/debug)
 - [nginx](/development/nginx)
-- [Springboot随手记](development/note/springboot)
+- [Springboot随手记](/development/note/springboot)
 - [常见面试题](/development/interview)
 
 
