@@ -2,7 +2,7 @@
 title: 02-JVM常见问题
 description: JVM相关的一些问题
 published: true
-date: 2023-08-17T08:40:25.399Z
+date: 2023-08-17T09:03:30.110Z
 tags: jvm, 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-17T07:22:28.250Z
@@ -39,3 +39,15 @@ dateCreated: 2023-08-17T07:22:28.250Z
 1. **引用计数为0的时候**。 需要额外的空间来存储引用计数器，但是它的实现很简单，而且效率也比较高。主流的 JVM 都没有采用这种方式，因为引用计数器在处理一些复杂的循环引用或者相互依赖的情况时，可能会出现一些不再使用但是又无法回收的内存，造成内存泄露的问题。
 2. **可达性分析**。先确定一系列肯定不能回收的对象作为 GC root，比如虚拟机栈里面的引用对象、本地方法栈引用的对象等，然后以 GC ROOT 作为起始节点，向下搜索，去寻找它的直接和间接引用对象，对象不可到达，则回收。
 
+## 05 G1垃圾回收
+https://juejin.cn/post/7025212933428740110
+
+## 06 JVM 分代年龄为什么是 15 次？可以 25 次吗
+> 不可以，对象头中使用4bit存储GC年龄，最大为15.
+
+1.  JVM 的 heap 内存里面，分为 Eden Space、Survivor Space(from  to)、Old Generation
+2. new 对象会在 Eden Space 分配一块内存空间来存储这个对象。当 Eden Space 的内存空间不足的时候，会触发 Young GC 进行对象回收。那些因为存在引用关系而无法回收的对象，JVM 会把它们转移到 Survivor Space。
+3. Survivor Space 内部又分为 From 区和 To 区，刚从 Eden 区转移过来的对象会分配到 From 区，每经历一次 Young GC，这些没有办法被回收的对象就会在 From 区和 To 区来回移动，每移动一次，这个对象的GC 年龄就加 1。默认情况下 GC 年龄达到 15 的时候，JVM 就会把这个对象移动到 OldGeneration。
+4.  JVM 提供了参数来设置分代年龄的大小，但是这个大小不能超过 15。
+5. 不管这个对象的 gc 年龄是否达到了 15 次，只要满足动态年龄判断的依据，也同样会转移到 old generation。
+  -  动态对象年龄判定：如果在Survivor空间中相同年龄所有对象大小的总和大于Survivor空间的一半，年龄大于或等于该年龄的对象就可以直接进入老年代，无须等到MaxTenuringThreshold中要求的年龄。
