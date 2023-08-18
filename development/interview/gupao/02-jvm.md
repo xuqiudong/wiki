@@ -2,7 +2,7 @@
 title: 02-JVM常见问题
 description: JVM相关的一些问题
 published: true
-date: 2023-08-18T07:42:00.699Z
+date: 2023-08-18T07:56:41.975Z
 tags: jvm, 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-17T07:22:28.250Z
@@ -61,3 +61,12 @@ https://juejin.cn/post/7025212933428740110
 6. 在进行 Full GC 之前，通常会先进行一次 Young GC，以尽可能地清理掉 Eden 区和 Survivor 区中的垃圾对象，以减少 Full GC 的压力和耗时。在 Young GC 之后，存活的对象将被复制到 Survivor区或 Old 区，而 Eden 区会被完全清空，等待下一次对象的分配。
 7. Major GC 其实是 Full GC 的另外一种叫法。
   
+## 08 CMS垃圾回收器的工作原理
+>  CMS (Concurrent Mark and Sweep) 是一种**低停顿垃圾回收器**，它主要通过初始标记阶段和并发标记阶段两个并发的阶段来实现垃圾回收：它的整体流程可以分成四个步骤：
+
+1. 初始标记（CMS initial mark）：这个阶段需要 Stop The Word，来标记哪些对象是需要回收的，这个过程只需要标记 GC Roots 能够直接关联的对象，所以速度很快，对性能影响比较小。
+2. 并发标记（CMS concurrent mark）：扫描整个堆中的对象，标记所有不需要回收的对象。这个阶段不需要 Stop The Word，在应用程序运行过程中进行标记。
+3. 重新标记（CMS remark）：为了修正并发标记期间，应用程序同步运行导致标记产生变动的那一部分对象。这个阶段需要 Stop The Word。
+4. 并发清除（CMS concurrent sweep），CMS 会并发执行清除操作，同时应用程序继续运行，最大力度减少对性能的影响。
+
+> 2023-08-18
