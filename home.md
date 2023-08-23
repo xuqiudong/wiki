@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-08-17T06:58:27.072Z
+date: 2023-08-23T07:13:46.644Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -44,6 +44,9 @@ dateCreated: 2023-08-15T02:18:55.129Z
 - [nginx](/development/nginx)
 - [Springboot随手记](/development/note/springboot)
 - [常见面试题](/development/interview)
+  - [01-JAVA并发编程基础](/development/interview/gupao/01-concurrency)
+  - [02-JVM常见问题](/development/interview/gupao/02-jvm)
+  - [03-MYSQL常见面试题](/development/interview/gupao/03-mysql)
 
 
 ## [学习经历](/education/README)
