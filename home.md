@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-08-23T07:13:46.644Z
+date: 2023-08-23T08:48:50.234Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -10,10 +10,10 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 # [docsify](https://docsify.js.org/#/zh-cn/)和wiki共用首页
 
-| [我的博客](https://xuqiudong.cn/)                        |                                                  |
-| -------------------------------------------------------- | ------------------------------------------------ |
-| [github](https://github.com/xuqiudong/)                  | [Gitee](https://gitee.com/xuqiudong)             |
-| [本wiki的gitpage地址](https://xuqiudong.github.io/wiki/) | [本wiki的wikijs地址](https://wiki.xuqiudong.cn/) |
+- [**本wiki的gitpage地址**](https://xuqiudong.github.io/wiki/) 
+- [**本wiki的wikijs地址**](https://wiki.xuqiudong.cn/) 
+-  [我的博客](https://xuqiudong.cn/)                                       
+- 我的代码：[github](https://github.com/xuqiudong/)  [Gitee](https://gitee.com/xuqiudong) 
 
 
 # wiki内导航
@@ -28,14 +28,6 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [mysql主从备份](/mine-linux/004)
 
 
-##  [API](/mine-api/README)
-
-`  一些项目说明和api`
-
-  -  [基于socket的文件上传](/mine-api/socket-upload)
-
-
-
 ## [开发](/development/README)
 
 ` 开发上的一些记录，如学习和debug等。`
@@ -47,6 +39,13 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [01-JAVA并发编程基础](/development/interview/gupao/01-concurrency)
   - [02-JVM常见问题](/development/interview/gupao/02-jvm)
   - [03-MYSQL常见面试题](/development/interview/gupao/03-mysql)
+
+
+##  [一些项目说明和api](/mine-api/README)
+
+`  一些项目说明和api`
+
+  -  [基于socket的文件上传](/mine-api/socket-upload)
 
 
 ## [学习经历](/education/README)
@@ -68,7 +67,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 - [值得一看的电影](/personal/movie)
 - [书单](/personal/book)
 
----
+
 
 # 我的导航
 
@@ -78,7 +77,6 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 - https://freedns.afraid.org/  xuqiudong
 
----
 
 # 其他信息
 
