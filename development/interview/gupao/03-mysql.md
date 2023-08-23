@@ -2,7 +2,7 @@
 title: 03-MYSQL常见面试题
 description: MYSQL常见面试题
 published: true
-date: 2023-08-23T07:11:38.907Z
+date: 2023-08-23T07:47:53.196Z
 tags: 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-23T07:11:38.907Z
@@ -14,6 +14,7 @@ dateCreated: 2023-08-23T07:11:38.907Z
 [MySQL 幻读被彻底解决了吗★](https://blog.csdn.net/m0_71777195/article/details/126968432)
 1. MYSQL的事务隔离级别：代表当存在多个事务并发冲突时，可能出现的脏读、不可重复读、幻读的问题。 (×：会差生，√：不会产生)
   | 事务隔离级别        | 脏读 |  不可重复读 | 幻读 | 
+  |---                |---  | ---        | --- |
   | Read Uncommitted  |   √ |    √       | √   |
   | Read committed    |   × |    √       |  √  |
   | repeated read     |  ×  |    ×       |  很大程度避免  |
