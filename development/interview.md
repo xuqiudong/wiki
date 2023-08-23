@@ -2,7 +2,7 @@
 title: 常见面试题
 description: 记录一些常见的面试题，多一点积累。
 published: true
-date: 2023-08-17T09:31:23.417Z
+date: 2023-08-23T07:12:44.970Z
 tags: interview, study
 editor: markdown
 dateCreated: 2023-06-15T06:19:19.359Z
@@ -18,3 +18,5 @@ dateCreated: 2023-06-15T06:19:19.359Z
   
 ## [01-JAVA并发编程基础](/development/interview/gupao/01-concurrency)
 ## [02-JVM常见问题](/development/interview/gupao/02-jvm)
+
+## [03-MYSQL常见面试题](/development/interview/gupao/03-mysql)
