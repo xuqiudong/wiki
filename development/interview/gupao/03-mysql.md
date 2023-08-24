@@ -2,7 +2,7 @@
 title: 03-MYSQL常见面试题
 description: MYSQL常见面试题
 published: true
-date: 2023-08-23T09:18:54.274Z
+date: 2023-08-24T09:38:05.200Z
 tags: 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-23T07:11:38.907Z
@@ -61,7 +61,7 @@ dateCreated: 2023-08-23T07:11:38.907Z
   - 4.2 执行计划分析， 重点关注type key rows filterd 等字段
   - 4.3 使用 show profile 工具
   
-> 备注, **一些常见的sql用户规则**： 
+> 备注, **一些常见的sql优化规则**： 
 - SQL 的查询一定要基于索引来进行数据扫描
 - 避免索引列上使用函数或者运算,这样会导致索引失效
 - where 字句中 like %号,尽量放置在右边
@@ -69,3 +69,7 @@ dateCreated: 2023-08-23T07:11:38.907Z
 - 尽可能使用 SQL 语句用到的索引完成排序,避免使用文件排序的方式
 - 查询有效的列信息即可.少用 * 代替列信息
 - 永远用小结果集驱动大结果集。
+
+## 03 对MVCC 的理解
+[一文理解Mysql MVCC](https://zhuanlan.zhihu.com/p/66791480)
+
