@@ -2,7 +2,7 @@
 title: 03-MYSQL常见面试题
 description: MYSQL常见面试题
 published: true
-date: 2023-08-24T09:38:05.200Z
+date: 2023-08-24T09:55:01.813Z
 tags: 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-23T07:11:38.907Z
@@ -71,5 +71,6 @@ dateCreated: 2023-08-23T07:11:38.907Z
 - 永远用小结果集驱动大结果集。
 
 ## 03 对MVCC 的理解
-[一文理解Mysql MVCC](https://zhuanlan.zhihu.com/p/66791480)
+- [一文理解Mysql MVCC](https://zhuanlan.zhihu.com/p/66791480)
+- [看一遍就理解：MVCC原理详解](https://juejin.cn/post/7016165148020703246)
 
