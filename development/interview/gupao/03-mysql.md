@@ -2,7 +2,7 @@
 title: 03-MYSQL常见面试题
 description: MYSQL常见面试题
 published: true
-date: 2023-08-25T06:46:52.142Z
+date: 2023-08-25T08:50:38.110Z
 tags: 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-23T07:11:38.907Z
@@ -90,7 +90,7 @@ dateCreated: 2023-08-23T07:11:38.907Z
     - 多个事务并行操作某一行数据时，不同事务对该行数据的修改会产生多个版本，然后通过回滚指针（roll_pointer），连成一个链表，这个链表就称为版本链。
   - 2.5  **快照读和当前读**
     - 快照读： 读取的是记录数据的可见版本（有旧的版本）。不加锁,普通的select语句都是快照读, 
-    - 当前读：读取的是记录数据的最新版本，显式加锁的都是当前读。 如：`.....for update;  .....lock in share mode;`
+    - 当前读： 读取的是记录数据的最新版本，显式加锁的都是当前读。 如：`.....for update;  .....lock in share mode;`
   - 2.6** 读视图 Read View** 
     - 事务执行SQL语句时，产生的读视图。实际上在innodb中，每个SQL语句执行前都会得到一个Read View。
     - 作用： 用来做可见性判断的，即判断当前事务可见哪个版本的数据
