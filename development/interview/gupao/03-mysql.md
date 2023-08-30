@@ -2,7 +2,7 @@
 title: 03-MYSQL常见面试题
 description: MYSQL常见面试题
 published: true
-date: 2023-08-30T09:22:41.383Z
+date: 2023-08-30T09:32:56.856Z
 tags: 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-23T07:11:38.907Z
@@ -162,3 +162,11 @@ dateCreated: 2023-08-23T07:11:38.907Z
 另外，这个事物在新快照之上修改的结果，不会影响原始数据，
 其他事务可以继续读取原始数据的快照，从而解决了脏读、不可重复度问题。
 所以，正是有了 MVCC 机制，让多个事务对同一条数据进行读写时，不需要加锁也不会出现读写冲突。
+
+## 11 MySQL update 是锁行还是锁表？
+1. MySQL 的 Update 操作既可以锁行，也可以锁表，
+2. 如果 update 语句中的 where 条件包含了索引列，并且只更新一条数据，那这个时候就加行锁。
+3. 如果 where 条件中不包含索引列，这个时候会加表锁
+4. 另外，根据查询范围不同，Mysql 也会选择不同粒度的锁来避免幻读问题。
+  - 针对主键索引的 for update 操作：`SELECT * FROM t WHERE id = 10 FOR UPDATE;` 会增加 Next-Key Lock 来锁定 id=10 索引所在的区间
+  - 针对于索引区间的查询或者修改: `SELECT * FROM user WHERE id BETWEEN 1 AND 100 FOR UPDATE;` 会自动对索引间隙加锁，来解决幻读问题。
