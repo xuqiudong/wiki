@@ -1,14 +1,14 @@
 ---
-title: 03-MYSQL常见面试题
+title: 03-MYSQL常见问题
 description: MYSQL常见面试题
 published: true
-date: 2023-08-30T09:33:56.075Z
+date: 2023-09-08T08:47:32.523Z
 tags: 咕泡, 面试
 editor: markdown
 dateCreated: 2023-08-23T07:11:38.907Z
 ---
 
-# 03-MYSQL常见面试题
+# 03-MYSQL常见问题
 
 ## 01 innoDB 如何解决幻读
 [MySQL 幻读被彻底解决了吗★](https://blog.csdn.net/m0_71777195/article/details/126968432)
