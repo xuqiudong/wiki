@@ -2,7 +2,7 @@
 title: development
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-08-24T10:00:09.139Z
+date: 2023-09-08T08:48:05.373Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -24,10 +24,10 @@ dateCreated: 2022-07-22T01:33:01.097Z
 001. springboot定制化tomcat参数
 
 
-## [常见面试题](/development/interview)
+## [常见开发问题](/development/interview)
 ### [01-JAVA并发编程基础](/development/interview/gupao/01-concurrency)
 ### [02-JVM常见问题](/development/interview/gupao/02-jvm)
-### [03-MYSQL常见面试题](/development/interview/gupao/03-mysql)
+### [03-MYSQL常见问题](/development/interview/gupao/03-mysql)
 
 
 
