@@ -2,18 +2,18 @@
 title: 常见面试题
 description: 记录一些常见的面试题，多一点积累。
 published: true
-date: 2023-08-24T09:58:45.531Z
+date: 2023-09-11T09:28:45.002Z
 tags: interview, study
 editor: markdown
 dateCreated: 2023-06-15T06:19:19.359Z
 ---
 
-# 常见的面试题记录
+# 常见的开发问题记录
 ### [返回development](/development/README)
 
 > start: 2023-06
 
-  所以做开发比较久了，但是其实还是很浅薄。这里记录一些常见的面试题，主要有以下目的：
+  所以做开发比较久了，但是其实还是很浅薄。这里记录一些常见的开发相关，主要有以下目的：
   1. 夯实基础知识 ，扩展知识面。
   2. 学会组织语言，对常见知识点做更好的表述。
   
@@ -22,6 +22,8 @@ dateCreated: 2023-06-15T06:19:19.359Z
 ## [02-JVM常见问题](/development/interview/gupao/02-jvm)
 
 ## [03-MYSQL常见面试题](/development/interview/gupao/03-mysql)
+
+## [04-redis常见问题](/development/interview/gupao/04-redis常见问题)
 
 
 
