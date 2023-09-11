@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-09-08T08:47:03.284Z
+date: 2023-09-11T09:27:24.951Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -30,6 +30,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [01-JAVA并发编程基础](/development/interview/gupao/01-concurrency)
   - [02-JVM常见问题](/development/interview/gupao/02-jvm)
   - [03-MYSQL常见问题](/development/interview/gupao/03-mysql)
+  - [04-redis常见问题](/development/interview/gupao/04-redis常见问题)
 
 ## [我的linux](/mine-linux/README)
 
