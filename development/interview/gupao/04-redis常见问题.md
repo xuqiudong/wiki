@@ -2,7 +2,7 @@
 title: 04-redis常见问题
 description: redis常见问题收集
 published: true
-date: 2023-09-12T09:48:21.396Z
+date: 2023-09-12T09:51:30.827Z
 tags: redis, 咕泡, 面试
 editor: markdown
 dateCreated: 2023-09-08T09:40:11.104Z
@@ -84,3 +84,6 @@ dateCreated: 2023-09-08T09:40:11.104Z
 5. 如果在 Redis搭建了高可用集群的情况下出现主从切换导致 key 失效，这个问题也有可能造成多个线程抢占到同一个锁资源的情况，所以 Redis 官方也提供了一个 RedLock 的解决办法，但是实现会相对复杂一些。
 6. 分布式锁应该是一个 CP 模型，而 Redis 是一个 AP 模型，所以在集群架构下由于数据的一致性问题导致极端情况下出现多个线程抢占到锁的情况很难避免。
 7. 那么基于 CP 模型又能实现分布式锁特性的组件，我认为可以选择 Zookeeper 或者etcd，在数据一致性方面，zookeeper 用到了 zab 协议来保证数据的一致性，etcd用到了 raft 算法来保证数据一致性。在锁的互斥方面，zookeeper 可以基于有序节点再结合 Watch 机制实现互斥和唤醒，etcd 可以基于 Prefix 机制和 Watch 实现互斥和唤醒。
+
+
+## 08 缓存雪崩和缓存穿透的理解，以及如何避免
