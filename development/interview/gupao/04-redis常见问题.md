@@ -2,7 +2,7 @@
 title: 04-redis常见问题
 description: redis常见问题收集
 published: true
-date: 2023-09-14T07:45:10.616Z
+date: 2023-09-14T08:31:19.139Z
 tags: redis, 咕泡, 面试
 editor: markdown
 dateCreated: 2023-09-08T09:40:11.104Z
@@ -124,3 +124,8 @@ dateCreated: 2023-09-08T09:40:11.104Z
 3.   我们在使用缓存的时候，建议是增加这些缓存的过期时间。因为我们知道这些缓存大概的生命周期，从而更好的利用内存。
 
 ## 11 Redis 哨兵机制和集群有什么区别
+1. Redis 哨兵集群是基于主从复制来实现的，所以它可以实现读写分离，分担 Redis读操作的压力
+2.  Redis Cluster 集群的 Slave 节点只是实现冷备机制，它只有在 Master 宕机之后才会工作。
+3. Redis 哨兵集群无法在线扩容，所以它的并发压力受限于单个服务器的资源配置。
+4. Redis Cluster 提供了基于 Slot 槽的数据分片机制，可以实现在线扩容提升写数据的性能
+5. 从集群架构上来说，Redis 哨兵集群是一主多从， 而 Redis Cluster 是多主多从
