@@ -2,7 +2,7 @@
 title: springboot随手记
 description: 记录开发中遇到的或着解决的一些小问题，留用
 published: true
-date: 2023-06-21T09:37:10.505Z
+date: 2023-09-14T02:55:06.084Z
 tags: development, note
 editor: markdown
 dateCreated: 2023-05-30T08:55:08.671Z
@@ -81,3 +81,7 @@ server.tomcat.redirect-context-root=false
 server.tomcat.remote-ip-header=x-forwarded-for
 server.tomcat.protocol-header=x-forwarded-proto
 ```
+
+## 003 注入自身
+1. @EnableAspectJAutoProxy(exposeProxy = true)
+2. AopContext.currentProxy()
