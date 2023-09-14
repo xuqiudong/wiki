@@ -2,7 +2,7 @@
 title: 04-redis常见问题
 description: redis常见问题收集
 published: true
-date: 2023-09-14T08:31:19.139Z
+date: 2023-09-14T08:39:56.341Z
 tags: redis, 咕泡, 面试
 editor: markdown
 dateCreated: 2023-09-08T09:40:11.104Z
@@ -129,3 +129,14 @@ dateCreated: 2023-09-08T09:40:11.104Z
 3. Redis 哨兵集群无法在线扩容，所以它的并发压力受限于单个服务器的资源配置。
 4. Redis Cluster 提供了基于 Slot 槽的数据分片机制，可以实现在线扩容提升写数据的性能
 5. 从集群架构上来说，Redis 哨兵集群是一主多从， 而 Redis Cluster 是多主多从
+
+## 12 Redis 主从复制的原理
+1. Redis 主从复制，是指在 Redis 集群里面），Master 节点和 Slave 节点数据同步的一种机制
+2. 在 Redis 里面，提供了**全量复制**和**增量复制**两种模式。
+3. 全量复制一般发生在 Slave 节点初始化阶段，这个时候需要把 master 上所有数据都制一份。原理如下：
+  - 3.1 Slave 向 Master 发送 SYNC 命令，Master 收到命令以后生成数据快照
+  - 3.2 把快照数据发送给 Slave 节点，Salve 节点收到数据后丢弃旧的数据，并重新载入新的数据
+  - 3.3 需要注意，在主从复制过程中，Redis 并没有采用实现强数据一致性，因此会存在一定时间的数据不一致问题。
+4. 增量复制，就是指 Master 收到数据变更之后，把变更的数据同步给所有 Slave 节点。  
+  - 4.4 增量复制的原理是，Master 和 Slave 都会维护一个复制偏移量（offset），用来表示Master 向 Slave 传递的字节数
+  - 4.5 每次传输数据，Master 和 Slave 维护的 Offset 都会增加对应的字节数量。Redis 只需要根据 Offset 就可以实现增量数据同步了。
