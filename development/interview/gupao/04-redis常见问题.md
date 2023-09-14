@@ -2,7 +2,7 @@
 title: 04-redis常见问题
 description: redis常见问题收集
 published: true
-date: 2023-09-14T08:39:56.341Z
+date: 2023-09-14T08:58:24.574Z
 tags: redis, 咕泡, 面试
 editor: markdown
 dateCreated: 2023-09-08T09:40:11.104Z
@@ -140,3 +140,20 @@ dateCreated: 2023-09-08T09:40:11.104Z
 4. 增量复制，就是指 Master 收到数据变更之后，把变更的数据同步给所有 Slave 节点。  
   - 4.4 增量复制的原理是，Master 和 Slave 都会维护一个复制偏移量（offset），用来表示Master 向 Slave 传递的字节数
   - 4.5 每次传输数据，Master 和 Slave 维护的 Offset 都会增加对应的字节数量。Redis 只需要根据 Offset 就可以实现增量数据同步了。
+  
+## 13 Redis 遇到 Hash 冲突怎么办
+1. 所谓 hash 冲突，是指不同的 key，计算出来的结果落到了同一个 hash 桶中。
+2. Redis 为了解决哈希冲突，采用了链式寻址法，也就是采用链表的方式来保存同一个hash 桶中的多个元素。（和 Java 中的 HashMap 是一样的。）
+3. 如果出现大量的 key 的冲突导致链表过长的情况下，会导致数据的检索效率变慢，Redis 是怎么解决这个问题的呢？
+4. 为了保持高效，Redis 会对哈希表做 rehash 操作，也就通过增加哈希桶来减少冲突。
+5. 为了 rehash 更高效，Redis 还默认使用了两个全局哈希表，一个用于当前使用，称为主哈希表，一个用于扩容，称为备用哈希表
+
+## 14 Redis 中的哨兵选举算法是如何实现的
+1. **筛选**:
+  - 在筛选阶段，会过滤掉不健康的节点，比如（下线或者断线），或者没有回复 Sentinel哨兵心跳响应的 Slave 节点。同时，还会评估实例过往的网络连接情况，如果在一定时间内，Slave 和 Master 经常性断链，而且超出了一定的阈值，也不会考虑。经过筛选后，留下的都是健康的节点了。
+2. **综合评估**  :
+  - 2.1 根据 Slave 优先级来判断，通过 slave-priority 配置项（redis.conf），可以给不同的从库设置不同优先级，优先级高的优先成为 master。 
+  - 2.2 选择数据偏移量差距最小的，即 slave_repl_offset 与 master_repl_offset 进度差距，其实就是比较 slave 与 原 master 复制进度差距，避免丢失过多数据的问题。
+  - 2.3 slave runID，在优先级和复制进度都相同的情况下，选用 runID 最好的，runID越小说明创建时间越早，优先选为 master。
+3.   如果哨兵存在集群的情况下，如果其中一个哨兵节点认为 Redis 集群主线故障，另外两个哨兵还没感知到的情况下。在进行 Master 选举之前，Sentinel 哨兵集群需要通过共识算法来达成一致，这里用到了 Raft 协议。
+
