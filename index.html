@@ -38,7 +38,7 @@
 				search: {
 					maxAge: 86400000, // 过期时间，单位毫秒，默认一天
 					paths: 'auto', // [] or 'auto'
-					placeholder: '输入要查询的内容',
+					placeholder: '输入要搜索的内容',
 					noData: '没有找到对应的内容!',
 					depth: 5,
 
@@ -69,12 +69,38 @@
 						].join('');
 
 						hook.afterEach(function(html) {
+							var $html = $('<div>' + html + '</div>');
+							//去掉 wikijs自动生成的概要信息
+							let arr = ['title','description','published'];
+							console.info("--------------");
+							$html.children("p").each(function(i, $sp) {
+								var context = $(this).html();
+								var match = arr.every(item=>context.includes(item));
+								if(match) {
+									console.info("remove summary：" + context);
+									var prev = $(this).prev();
+									var next = $(this).next();
+									if(prev.is("hr")) {
+										prev.remove();
+									}
+									if(next.is("hr")) {
+										next.remove();
+									}
+									$(this).remove();
+									html = $html.html();
+									return false;
+								}
+									
+							})
 							return html + footer;
 						});
 						hook.ready(function() {
 							if (window.$nojs) {
 								window.$nojs(document);
 							}
+						});
+						hook.ready(function() {
+							// 初始化并第一次加载完成数据后调用，没有参数。
 						});
 					}
 				]
@@ -90,6 +116,7 @@
 		<script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 		<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+		<script src="mine-js/jquery-1.12.4.min.js"></script>
 		<script>
 			//百度统计
 			var _hmt = _hmt || [];
