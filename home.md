@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-09-19T07:01:30.925Z
+date: 2023-09-21T06:49:40.318Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -15,7 +15,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 - [**本wiki的wikijs地址**](https://wiki.xuqiudong.cn/) 
   `部署在本地的物理主机上(无80/443端口，无法备案)的wikijs，被云主机nginx方向代理`
 -  [我的博客](https://xuqiudong.cn/) 
-  `记录一些技术方面的随便和解决方案等`
+  `记录一些技术方面的随笔和解决方案等`
 - 我的代码：  
   - [Gitee码云](https://gitee.com/xuqiudong) 
   - [github(网络不稳定，用的少)](https://github.com/xuqiudong/)
