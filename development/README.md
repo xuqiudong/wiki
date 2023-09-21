@@ -2,7 +2,7 @@
 title: README
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-09-08T08:55:10.587Z
+date: 2023-09-21T08:32:56.952Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -28,8 +28,9 @@ dateCreated: 2022-07-22T01:33:01.097Z
 ### [01-JAVA并发编程基础](/development/interview/gupao/01-concurrency)
 ### [02-JVM常见问题](/development/interview/gupao/02-jvm)
 ### [03-MYSQL常见问题](/development/interview/gupao/03-mysql)
-
-
+### [04-redis常见问题](/development/interview/gupao/04-redis常见问题)
+### [05-Zookeeper常见问题](/development/interview/gupao/05-Zookeeper常见问题)
+### [06-mq常见问题](/development/interview/gupao/06-mq常见问题)
 
 
 
