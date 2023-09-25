@@ -2,12 +2,13 @@
 title: README
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-09-21T08:32:56.952Z
+date: 2023-09-25T09:44:15.300Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
 ---
 
+# 软件开发
 ## [debug](/development/debug)
 
 - [ubuntu-unknown-CollectedHeap-type](/development/debug/ubuntu-unknown-CollectedHeap-type)
@@ -30,8 +31,15 @@ dateCreated: 2022-07-22T01:33:01.097Z
 ### [03-MYSQL常见问题](/development/interview/gupao/03-mysql)
 ### [04-redis常见问题](/development/interview/gupao/04-redis常见问题)
 ### [05-Zookeeper常见问题](/development/interview/gupao/05-Zookeeper常见问题)
-### [06-mq常见问题](/development/interview/gupao/06-mq常见问题)
-
+### [06-mq常见问题](/development/interview/gupao/06-mq常见问题) 
+> 
+## 学习笔记
+**TODO:** 
+- kafka
+- springcloud alibaba
+  - nacos
+- es  
+- tomcat 
 
 
 ---
