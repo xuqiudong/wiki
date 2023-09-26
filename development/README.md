@@ -2,7 +2,7 @@
 title: README
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-09-25T09:44:15.300Z
+date: 2023-09-26T08:47:54.453Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -40,6 +40,9 @@ dateCreated: 2022-07-22T01:33:01.097Z
   - nacos
 - es  
 - tomcat 
+- docker 继续
+  - springboot相关继承
+  - 项目改造为docker
 
 
 ---
