@@ -2,7 +2,7 @@
 title: README
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-09-26T08:47:54.453Z
+date: 2023-09-26T09:14:28.793Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -32,6 +32,7 @@ dateCreated: 2022-07-22T01:33:01.097Z
 ### [04-redis常见问题](/development/interview/gupao/04-redis常见问题)
 ### [05-Zookeeper常见问题](/development/interview/gupao/05-Zookeeper常见问题)
 ### [06-mq常见问题](/development/interview/gupao/06-mq常见问题) 
+### [07-常见场景问题](/development/interview/gupao/07-常见场景问题)
 > 
 ## 学习笔记
 **TODO:** 
