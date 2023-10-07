@@ -2,7 +2,7 @@
 title: README
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-09-26T09:14:28.793Z
+date: 2023-10-07T06:34:47.562Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -40,6 +40,9 @@ dateCreated: 2022-07-22T01:33:01.097Z
 - springcloud alibaba
   - nacos
 - es  
+- nginx
+- zk
+- redis
 - tomcat 
 - docker 继续
   - springboot相关继承
