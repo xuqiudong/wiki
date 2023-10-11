@@ -2,7 +2,7 @@
 title: README
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-10-07T06:34:47.562Z
+date: 2023-10-11T09:55:28.441Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -44,7 +44,7 @@ dateCreated: 2022-07-22T01:33:01.097Z
 - zk
 - redis
 - tomcat 
-- docker 继续
+- [docker](https://www.bilibili.com/video/BV1sb411X7oe/?spm_id_from=333.337.search-card.all.click) 继续
   - springboot相关继承
   - 项目改造为docker
 
