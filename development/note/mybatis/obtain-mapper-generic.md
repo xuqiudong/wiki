@@ -2,7 +2,7 @@
 title: 【mybatis随手记】-获取Mapper接口上的泛型
 description: 获取Mapper接口上的泛型
 published: true
-date: 2023-10-16T09:10:51.077Z
+date: 2023-10-16T09:16:58.871Z
 tags: mybatis, note
 editor: markdown
 dateCreated: 2023-10-16T09:08:12.634Z
@@ -12,7 +12,7 @@ dateCreated: 2023-10-16T09:08:12.634Z
 
 ## 一、背景说明
 1. 项目中的代码通过代码生成器统一生成
-2. mybatis父接口中定义了写统一的方法，并限定了Model泛型
+2. mybatis父接口中定义了一些统一的方法，并限定了Model泛型
 ```java
 public interface BaseMapper<T> {
    /**
@@ -21,11 +21,10 @@ public interface BaseMapper<T> {
      * @return list
      */
     List<T> list(Lookup lookup);
-	 
     // 其他一些统一的方法 略
 }
-
 ```
+
 2. 在运行时时候，期望通过Model class调用mapper的一些通用方法
 3. 所以需要在运行时候获取Mapper接口上的泛型类型，反向获取到Mapper
 
