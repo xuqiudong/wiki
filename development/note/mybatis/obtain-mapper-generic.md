@@ -2,8 +2,8 @@
 title: 【mybatis随手记】-获取Mapper接口上的泛型
 description: 获取Mapper接口上的泛型
 published: true
-date: 2023-10-16T09:08:12.634Z
-tags: note, mybatis
+date: 2023-10-16T09:10:51.077Z
+tags: mybatis, note
 editor: markdown
 dateCreated: 2023-10-16T09:08:12.634Z
 ---
@@ -110,4 +110,4 @@ public class CommonBaseMapperService implements InitializingBean {
 
 ```
 
-代码较为简单。
+代码较为简单，参见[gitee](https://gitee.com/xuqiudong/boot-support/blob/master/lcxm-common-base/src/main/java/cn/xuqiudong/common/base/service/CommonBaseMapperService.java).
