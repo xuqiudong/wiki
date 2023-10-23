@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-09-28T09:00:03.660Z
+date: 2023-10-23T06:33:39.692Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -70,6 +70,9 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [软考案例分析随手记](/education/software-exam/case-analysis-notes)
   - [thesis-preparation](/education/software-exam/thesis-preparation)
   - [软考专业英语试题](/education/software-exam/eglish)
+  
+## [多多小叙事](/duoduo)
+- 多多出行记
 
 ## [个人](/personal/README)
 
