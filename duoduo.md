@@ -2,7 +2,7 @@
 title: 多多小叙事
 description: 多多，爸爸妈妈永远爱你
 published: true
-date: 2023-10-26T07:52:26.808Z
+date: 2023-10-26T07:53:08.003Z
 tags: 多多, 小叙事
 editor: markdown
 dateCreated: 2023-10-23T01:37:45.721Z
@@ -59,20 +59,5 @@ dateCreated: 2023-10-23T01:37:45.721Z
 类似一个运动广场，场地不是很大，无动力乐园。滑滑梯、荡秋千、滑索、蹦床等。
 ----
 
-# Tabs {.tabset}
-## First Tab
 
-Any content here will go into the first tab...
-
-## Second Tab
-
-Any content here will go into the second tab...
-
-## Third Tab
-
-Any content here will go into the third tab...
-{.tabset}
-----
-### end
-sd
 
