@@ -2,7 +2,7 @@
 title: 多多小叙事
 description: 多多，爸爸妈妈永远爱你
 published: true
-date: 2023-10-26T07:51:36.527Z
+date: 2023-10-26T07:52:26.808Z
 tags: 多多, 小叙事
 editor: markdown
 dateCreated: 2023-10-23T01:37:45.721Z
@@ -71,7 +71,7 @@ Any content here will go into the second tab...
 ## Third Tab
 
 Any content here will go into the third tab...
-
+{.tabset}
 ----
 ### end
 sd
