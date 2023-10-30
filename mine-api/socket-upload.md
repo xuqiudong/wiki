@@ -2,7 +2,7 @@
 title: 基于websocket的文件上传
 description: 支持断点续传
 published: true
-date: 2022-10-26T10:57:10.564Z
+date: 2023-10-30T09:55:20.367Z
 tags: api
 editor: markdown
 dateCreated: 2022-07-15T03:58:52.398Z
@@ -190,4 +190,8 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
    "data": null //list列表 显示最后10条信息：附件信息 + 列表信息，均未转义
 }
 ```
+
+### 备注：项目代码：
+
+[代码地址:](https://gitee.com/xuqiudong/widget/tree/master/socket-upload)
 
