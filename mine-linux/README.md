@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2023-08-15T02:43:04.031Z
+date: 2023-11-07T07:22:20.387Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
@@ -12,13 +12,11 @@ dateCreated: 2022-06-13T06:00:53.930Z
 
 ## 目录
 
-[001- 买个迷你主机当`linux`服务器使用](/mine-linux/001)
-
-[002-新建systemctl  service的java开机启动项](/mine-linux/002)
-
-[003-动态域名解析ddns](/mine-linux/003-ddns)
-
-[004-mysql8.0主从备份](/mine-linux/004)
+- [001- 买个迷你主机当`linux`服务器使用](/mine-linux/001)
+- [002-新建systemctl  service的java开机启动项](/mine-linux/002)
+- [003-动态域名解析ddns](/mine-linux/003-ddns)
+- [004-mysql8.0主从备份](/mine-linux/004)
+- [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
 
 ## 服务地址
 
