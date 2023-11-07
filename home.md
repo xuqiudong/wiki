@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-10-23T06:33:39.692Z
+date: 2023-11-07T07:21:30.189Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -48,6 +48,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [002- 基于systemctl service的java开机启动](/mine-linux/002)
   - [003-ddns动态域名解析](/mine-linux/003-ddns)
   - [004-mysql主从备份](/mine-linux/004)
+  - [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
 
 
 ##  [一些项目说明和api](/mine-api/README)
