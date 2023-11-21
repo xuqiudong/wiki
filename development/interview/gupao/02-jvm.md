@@ -2,8 +2,8 @@
 title: 02-JVM常见问题
 description: JVM相关的一些问题
 published: true
-date: 2023-08-18T07:56:41.975Z
-tags: jvm, 咕泡, 面试
+date: 2023-08-18T07:56:45.006Z
+tags: 咕泡, 面试, jvm
 editor: markdown
 dateCreated: 2023-08-17T07:22:28.250Z
 ---

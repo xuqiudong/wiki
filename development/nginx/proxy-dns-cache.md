@@ -2,7 +2,7 @@
 title: 反向代理域名缓存引起的504 Gateway Time-out
 description: 反向代理域名缓存引起的504 Gateway Time-out
 published: true
-date: 2022-09-29T01:51:12.826Z
+date: 2022-09-29T01:51:15.742Z
 tags: mine-linux, nginx
 editor: markdown
 dateCreated: 2022-08-15T01:47:23.978Z

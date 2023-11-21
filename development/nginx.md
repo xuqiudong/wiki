@@ -2,7 +2,7 @@
 title: nginx 问题汇总
 description: nginx 问题汇总导航
 published: true
-date: 2022-08-15T02:27:54.842Z
+date: 2022-08-15T02:27:57.710Z
 tags: development, nav, ng
 editor: markdown
 dateCreated: 2022-07-29T01:17:20.680Z

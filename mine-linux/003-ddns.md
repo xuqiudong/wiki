@@ -2,7 +2,7 @@
 title: 动态域名解析ddns
 description: 我的linux设置ddns
 published: true
-date: 2022-08-08T03:06:37.150Z
+date: 2022-08-08T03:06:40.092Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-08-01T01:42:25.846Z

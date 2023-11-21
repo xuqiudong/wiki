@@ -2,8 +2,8 @@
 title: 04-redis常见问题
 description: redis常见问题收集
 published: true
-date: 2023-09-14T08:58:24.574Z
-tags: redis, 咕泡, 面试
+date: 2023-09-14T08:58:27.817Z
+tags: 咕泡, 面试, redis
 editor: markdown
 dateCreated: 2023-09-08T09:40:11.104Z
 ---

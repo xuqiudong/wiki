@@ -2,8 +2,8 @@
 title: 常见面试题
 description: 记录一些常见的面试题，多一点积累。
 published: true
-date: 2023-09-25T07:46:14.597Z
-tags: interview, study
+date: 2023-09-25T07:46:17.544Z
+tags: study, interview
 editor: markdown
 dateCreated: 2023-06-15T06:19:19.359Z
 ---

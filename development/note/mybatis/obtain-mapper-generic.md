@@ -2,8 +2,8 @@
 title: 【mybatis随手记】-获取Mapper接口上的泛型
 description: 获取Mapper接口上的泛型
 published: true
-date: 2023-10-16T09:16:58.871Z
-tags: mybatis, note
+date: 2023-10-16T09:17:01.819Z
+tags: note, mybatis
 editor: markdown
 dateCreated: 2023-10-16T09:08:12.634Z
 ---

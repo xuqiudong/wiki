@@ -2,7 +2,7 @@
 title: 架构风格汇总
 description: 架构风格汇总，很重要
 published: true
-date: 2022-09-29T06:35:19.754Z
+date: 2022-09-29T06:35:22.781Z
 tags: 学历, 软考
 editor: markdown
 dateCreated: 2022-06-28T00:32:15.956Z

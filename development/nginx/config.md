@@ -2,7 +2,7 @@
 title: nginx配置中的一些问题
 description: 一些nginx在配置中遇到的问题
 published: true
-date: 2022-07-29T01:15:46.625Z
+date: 2022-07-29T01:15:49.562Z
 tags: development, nginx
 editor: markdown
 dateCreated: 2022-07-29T01:15:46.624Z
