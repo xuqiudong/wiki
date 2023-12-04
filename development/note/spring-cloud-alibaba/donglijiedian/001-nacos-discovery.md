@@ -1,14 +1,14 @@
 ---
-title: 【spring-cloud-albaba】001-Nacos服务注册与发现
+title: 【spring-cloud-albaba】01-Nacos服务注册与发现
 description: Nacos服务注册与发现
 published: true
-date: 2023-12-04T09:43:11.286Z
+date: 2023-12-04T09:51:58.518Z
 tags: springcloud, springcloud alibaba, 动力节点, 学习笔记
 editor: markdown
 dateCreated: 2023-12-04T09:43:11.286Z
 ---
 
-# 001-Nacos服务注册与发现
+# 01-Nacos服务注册与发现
 - 代码仓库： [springcloud-alibaba branch](https://gitee.com/xuqiudong/code-learning/tree/springcloud-alibaba/)
 
 > 常见：zk、eureka、consul、nacos。
