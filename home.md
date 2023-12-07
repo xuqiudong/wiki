@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-07T02:46:13.163Z
+date: 2023-12-07T02:47:41.244Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -66,7 +66,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 ## [个人](/personal/README)
 
-###  [学习经历](/education/README)
+###  [学习经历](/personal/education/README)
 
 `少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
 **少而好学，如日出之阳；壮而好学，如日中之光；老而好学，如炳烛之明**
@@ -79,6 +79,11 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [软考案例分析随手记](/education/software-exam/case-analysis-notes)
   - [thesis-preparation](/education/software-exam/thesis-preparation)
   - [软考专业英语试题](/education/software-exam/eglish)
+  
+### 娱乐
+
+[游戏](/personal/entertainment)
+  
 ### 其他
 - [值得一看的电影](/personal/movie)
 - [书单](/personal/book)
