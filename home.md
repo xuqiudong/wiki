@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-07T05:54:27.189Z
+date: 2023-12-07T05:57:05.192Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -21,9 +21,8 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [github(网络不稳定，用的少)](https://github.com/xuqiudong/)
 
 
-# wiki内导航
-
-## [我的linux](/mine-linux/README)
+# wiki内导航 ↓↓↓
+# [我的linux](/mine-linux/README)
 
 `自己买了台迷你电脑当服务器，记录一下事项。`
 
@@ -36,7 +35,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 
 
-## [开发](/development/README)
+# [开发](/development/README)
 
 ` 开发上的一些记录，如学习和debug等。`
 
@@ -52,16 +51,16 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [06-mq常见问题](/development/interview/gupao/06-mq常见问题)
   - [07-常见场景问题](/development/interview/gupao/07-常见场景问题)
   
-### 程序员学习笔记
+## 程序员学习笔记
 
-#### springcloud alibab
+### springcloud alibab
 
 - [000-动力节点springcloud alibaba入门](/development/note/spring-cloud-alibaba/donglijiedian/index)
 - [001-nacos-注册服务与发现](/development/note/spring-cloud-alibaba/donglijiedian/001-nacos-discovery) 
 
 
 
-##  [一些项目说明和api](/mine-api/README)
+#  [一些项目说明和api](/mine-api/README)
 
 `  一些项目说明和api`
 
@@ -70,13 +69,13 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 
   
-## [多多小叙事](/duoduo/INDEX)
+# [多多小叙事](/duoduo/INDEX)
 
 - 多多出行记
 
-## [个人](/personal/README)
+# [个人](/personal/README)
 
-###  [学习经历](/personal/education/README)
+##  [学习经历](/personal/education/README)
 
 `少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
 **少而好学，如日出之阳；壮而好学，如日中之光；老而好学，如炳烛之明**
@@ -90,17 +89,17 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [thesis-preparation](/personal/education/software-exam/thesis-preparation)
   - [软考专业英语试题](/personal/education/software-exam/eglish)
   
-### 娱乐
+## 娱乐
 
 [游戏](/personal/entertainment)
   
-### 其他
+## 其他
 - [值得一看的电影](/personal/movie)
 - [书单](/personal/book)
 
 - [todo_and_done](/personal/todo_and_done)
 
-
+# wiki内导航 ↑↑↑
 # 我的导航
 
 `  服务器上起的服务多了，难免忘掉，写个导航页记录一下。`
