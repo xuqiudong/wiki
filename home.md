@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-07T02:47:41.244Z
+date: 2023-12-07T03:06:24.860Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -71,14 +71,14 @@ dateCreated: 2023-08-15T02:18:55.129Z
 `少壮不努力老大徒伤悲，还是该好好学习的。 记录本人迟到的学习。`
 **少而好学，如日出之阳；壮而好学，如日中之光；老而好学，如炳烛之明**
 
-- [**学习经历时间轴**](/education/timeline)
-- [**高职**](/education/college)
-- [**自考**](/education/self-taught)
+- [**学习经历时间轴**](/personal/education/timeline)
+- [**高职**](/personal/education/college)
+- [**自考**](/personal/education/self-taught)
 - [**软考-架构师**](/education/software-exam)
-  - [架构风格汇总](/education/software-exam/architecture-style-summary)
-  - [软考案例分析随手记](/education/software-exam/case-analysis-notes)
-  - [thesis-preparation](/education/software-exam/thesis-preparation)
-  - [软考专业英语试题](/education/software-exam/eglish)
+  - [架构风格汇总](/personal/education/software-exam/architecture-style-summary)
+  - [软考案例分析随手记](/personal/education/software-exam/case-analysis-notes)
+  - [thesis-preparation](/personal/education/software-exam/thesis-preparation)
+  - [软考专业英语试题](/personal/education/software-exam/eglish)
   
 ### 娱乐
 
