@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-07T05:37:00.152Z
+date: 2023-12-07T05:54:27.189Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -23,6 +23,18 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 # wiki内导航
 
+## [我的linux](/mine-linux/README)
+
+`自己买了台迷你电脑当服务器，记录一下事项。`
+
+  - [001-买了台迷你主机安装ubuntu server](/mine-linux/001)
+  - [002- 基于systemctl service的java开机启动](/mine-linux/002)
+  - [003-ddns动态域名解析](/mine-linux/003-ddns)
+  - [004-mysql主从备份](/mine-linux/004)
+  - [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
+  - [006-安装wikijs](/mine-linux/006-intsall-wikijs)
+
+
 
 ## [开发](/development/README)
 
@@ -39,17 +51,14 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [05-Zookeeper常见问题](/development/interview/gupao/05-Zookeeper常见问题)
   - [06-mq常见问题](/development/interview/gupao/06-mq常见问题)
   - [07-常见场景问题](/development/interview/gupao/07-常见场景问题)
+  
+### 程序员学习笔记
 
-## [我的linux](/mine-linux/README)
+#### springcloud alibab
 
-`自己买了台迷你电脑当服务器，记录一下事项。`
+- [000-动力节点springcloud alibaba入门](/development/note/spring-cloud-alibaba/donglijiedian/index)
+- [001-nacos-注册服务与发现](/development/note/spring-cloud-alibaba/donglijiedian/001-nacos-discovery) 
 
-  - [001-买了台迷你主机安装ubuntu server](/mine-linux/001)
-  - [002- 基于systemctl service的java开机启动](/mine-linux/002)
-  - [003-ddns动态域名解析](/mine-linux/003-ddns)
-  - [004-mysql主从备份](/mine-linux/004)
-  - [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
-  - [006-安装wikijs](/mine-linux/006-intsall-wikijs)
 
 
 ##  [一些项目说明和api](/mine-api/README)
