@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2023-12-07T02:36:52.872Z
+date: 2023-12-07T07:36:55.601Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2022-06-13T06:00:53.930Z
@@ -18,6 +18,7 @@ dateCreated: 2022-06-13T06:00:53.930Z
 - [004-mysql8.0主从备份](/mine-linux/004)
 - [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
 - [006-安装wikijs](/mine-linux/006-intsall-wikijs)
+- [007-scp从云主机拉取ssl证书到物理linux主机](/mine-linux/007-scp-fetch-file)
 
 ## 服务地址
 
