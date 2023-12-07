@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-07T05:36:29.690Z
+date: 2023-12-07T05:37:00.152Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -75,7 +75,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 - [**学习经历时间轴**](/personal/education/timeline)
 - [**高职**](/personal/education/college)
 - [**自考**](/personal/education/self-taught)
-- [**软考-架构师**](/education/software-exam)
+- [**软考-架构师**](/personal/education/software-exam)
   - [架构风格汇总](/personal/education/software-exam/architecture-style-summary)
   - [软考案例分析随手记](/personal/education/software-exam/case-analysis-notes)
   - [thesis-preparation](/personal/education/software-exam/thesis-preparation)
@@ -89,7 +89,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 - [值得一看的电影](/personal/movie)
 - [书单](/personal/book)
 
-- [todo_and_done](/todo_and_done)
+- [todo_and_done](/personal/todo_and_done)
 
 
 # 我的导航
