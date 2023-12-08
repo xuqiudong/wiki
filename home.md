@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-07T05:57:05.192Z
+date: 2023-12-08T09:24:34.550Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -57,6 +57,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
 
 - [000-动力节点springcloud alibaba入门](/development/note/spring-cloud-alibaba/donglijiedian/index)
 - [001-nacos-注册服务与发现](/development/note/spring-cloud-alibaba/donglijiedian/001-nacos-discovery) 
+- [002-nacos-config](/development/note/spring-cloud-alibaba/donglijiedian/03-nacos-config)
 
 
 
