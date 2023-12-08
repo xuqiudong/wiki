@@ -2,7 +2,7 @@
 title: README
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-12-07T05:52:00.369Z
+date: 2023-12-08T09:24:10.858Z
 tags: development
 editor: markdown
 dateCreated: 2022-07-22T01:33:01.097Z
@@ -41,6 +41,7 @@ dateCreated: 2022-07-22T01:33:01.097Z
 #### 动力节点
 - [000-动力节点springcloud alibaba入门](/development/note/spring-cloud-alibaba/donglijiedian/index)
 - [001-nacos-注册服务与发现](/development/note/spring-cloud-alibaba/donglijiedian/001-nacos-discovery)
+- [03-nacos-config](/development/note/spring-cloud-alibaba/donglijiedian/03-nacos-config)
 
 **TODO:** 
 - kafka
