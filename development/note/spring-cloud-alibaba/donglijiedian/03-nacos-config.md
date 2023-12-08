@@ -1,8 +1,8 @@
 ---
-title: 02-nacos服务配置中心
+title: 【spring-cloud-alibaba】【动力节点】02-nacos服务配置中心
 description: nacos服务配置中心
 published: true
-date: 2023-12-08T09:23:11.545Z
+date: 2023-12-08T09:26:53.135Z
 tags: springcloud alibaba, 动力节点, 学习笔记
 editor: markdown
 dateCreated: 2023-12-08T09:23:11.545Z
