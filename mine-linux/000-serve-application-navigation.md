@@ -2,7 +2,7 @@
 title: 000-我的服务器应用/软件导航
 description: 我的服务器上安装多一些应用或软件说明
 published: true
-date: 2023-12-12T03:47:02.261Z
+date: 2023-12-12T03:48:07.136Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2023-12-12T03:34:45.059Z
@@ -14,7 +14,10 @@ dateCreated: 2023-12-12T03:34:45.059Z
 
 ### [我的博客](https://xuqiudong.cn/)
 
-https://xuqiudong.cn/
+
+
+`https://xuqiudong.cn/` 域名解析指向**云服务器**
+
 
 
 
