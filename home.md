@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-08T09:24:34.550Z
+date: 2023-12-12T05:56:11.617Z
 tags: nav
 editor: markdown
 dateCreated: 2023-08-15T02:18:55.129Z
@@ -25,7 +25,8 @@ dateCreated: 2023-08-15T02:18:55.129Z
 # [我的linux](/mine-linux/README)
 
 `自己买了台迷你电脑当服务器，记录一下事项。`
-
+  
+  - [000-我的服务应用导航](/mine-linux/000-serve-application-navigation)
   - [001-买了台迷你主机安装ubuntu server](/mine-linux/001)
   - [002- 基于systemctl service的java开机启动](/mine-linux/002)
   - [003-ddns动态域名解析](/mine-linux/003-ddns)
