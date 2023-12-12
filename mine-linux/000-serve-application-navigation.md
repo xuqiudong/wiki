@@ -2,7 +2,7 @@
 title: 000-我的服务器应用/软件导航
 description: 我的服务器上安装多一些应用或软件说明
 published: true
-date: 2023-12-12T07:34:41.347Z
+date: 2023-12-12T07:56:07.835Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2023-12-12T03:34:45.059Z
@@ -50,6 +50,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 - 运行在docker之上的docker可视化管理工具
 - TODO:考虑把更多的应用迁移到docker上
 - 指向：http://xuqiudong.us.to:82/
+- nginx代理了是9000上的端口
 
 ### nextcloud私有云盘：
 
