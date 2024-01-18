@@ -16,7 +16,7 @@ dateCreated: 2022-06-13T06:00:53.930Z
 - [001- 买个迷你主机当`linux`服务器使用](/mine-linux/001)
 - [002-新建systemctl  service的java开机启动项](/mine-linux/002)
 - [003-动态域名解析ddns](/mine-linux/003-ddns)
-- [004-mysql8.0主从备份](/mine-linux/004)
+- [004-mysql8.0主从备份](/mine-linux/004-mysql-master-slave)
 - [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
 - [006-安装wikijs](/mine-linux/006-intsall-wikijs)
 - [007-scp从云主机拉取ssl证书到物理linux主机](/mine-linux/007-scp-fetch-file)

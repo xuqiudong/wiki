@@ -1,12 +1,4 @@
----
-title: _navbar
-description: 
-published: true
-date: 2023-08-15T02:59:10.578Z
-tags: 
-editor: markdown
-dateCreated: 2023-08-15T01:59:46.129Z
----
+
 
 <!-- _navbar.md -->
 

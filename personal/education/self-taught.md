@@ -2,7 +2,7 @@
 title: 本科:自考
 description: 计算机科学与技术- 合肥工业大学
 published: true
-date: 2023-12-07T03:04:28.883Z
+date: 2023-02-24T09:45:36.101Z
 tags: 学历
 editor: markdown
 dateCreated: 2022-06-13T06:01:02.328Z
@@ -12,24 +12,24 @@ dateCreated: 2022-06-13T06:01:02.328Z
 2020年12月决定参加自考，专业为《计算机科学与技术》，所属院校为合肥工业大学。
 
 
-[公共关系00182](/personal/education/self-taught/public-relation-question)
+[公共关系00182](/education/self-taught/public-relation-question)
 
-[中国近代史纲要](/personal/education/self-taught/history)
+[中国近代史纲要](/education/self-taught/history)
 
-[近代史：主观题汇总](/personal/education/self-taught/history-subjective)
+[近代史：主观题汇总](/education/self-taught/history-subjective)
 
-[英语二作文模板](/personal/education/self-taught/eglish-composition-template)
+[英语二作文模板](/education/self-taught/eglish-composition-template)
 
 **202210 平时测验：**
- - [近代史03708-平时测验202210](/personal/education/self-taught/history-202210-test)
+ - [近代史03708-平时测验202210](/education/self-taught/history-202210-test)
 
- - [数据结构02331 平时测验202210](/personal/education/self-taught/02331-test-202210)
+ - [数据结构02331 平时测验202210](/education/self-taught/02331-test-202210)
  
- - [英语二00015-平时测验202210-test](/personal/education/self-taught/english-202210-test)
+ - [英语二00015-平时测验202210-test](/education/self-taught/english-202210-test)
  
 **随手记**
  
- [02331-数据结构随手记](/personal/education/self-taught/02331-record)
+ [02331-数据结构随手记](/education/self-taught/02331-record)
 
 ----
 ## 关于2022年10月的大概安排-已通过

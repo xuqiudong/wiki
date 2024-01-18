@@ -30,7 +30,7 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [001-买了台迷你主机安装ubuntu server](/mine-linux/001)
   - [002- 基于systemctl service的java开机启动](/mine-linux/002)
   - [003-ddns动态域名解析](/mine-linux/003-ddns)
-  - [004-mysql主从备份](/mine-linux/004)
+  - [004-mysql主从备份](/mine-linux/004-mysql-master-slave)
   - [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
   - [006-安装wikijs](/mine-linux/006-intsall-wikijs)
 

@@ -103,29 +103,44 @@ dateCreated: 2023-08-11T09:34:13.486Z
 								}
 									
 							})
+							var size = $("nav.app-nav").size();
+							console.log("after nav size = " + size);
+							console.log($("nav.app-nav").html());
+							console.info($("nav.app-nav").children("ul").size());
+							$("nav.app-nav").children("ul").siblings().hide();
 							return html + footer;
 						});
 						hook.ready(function() {
 							if (window.$nojs) {
 								window.$nojs(document);
 							}
+							
 						});
 						hook.ready(function() {
 							// 初始化并第一次加载完成数据后调用，没有参数。
+							
 						});
+						 hook.doneEach(function() {
+							 console.log("doneEach")
+							// 初始化并第一次加载完成数据后调用，只触发一次，没有参数。
+							console.log($("body").html())
+						  });
 					}
 				]
 			};
 		</script>
-		<!-- Docsify v4 -->
-		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+		<!-- Docsify v4 
+		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
+		<script src="./assets/js/docsify_4.js"></script>
 		<!-- 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   -->
 		<!--全文搜索,直接用官方提供的无法生效-->
-		<script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+		<!-- <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script> -->
+		<script src="./assets/js/search.min.js"></script>
 		<script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+		<!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>-->
+		<script src="./assets/js/zoom-image.min.js"></script>
 		<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 		<script src="./assets/js/jquery-1.12.4.min.js"></script>
 		<script>
