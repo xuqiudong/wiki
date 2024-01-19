@@ -2,7 +2,7 @@
 title: 内部资料管理系统
 description: 内部资料安全管理系统
 published: true
-date: 2024-01-19T03:35:11.180Z
+date: 2024-01-19T03:36:57.829Z
 tags: api, project
 editor: markdown
 dateCreated: 2024-01-19T02:48:57.751Z
@@ -36,7 +36,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 
 # 接口列表
-
+> 初步整理
  
 ## 01 用户模块
 
@@ -86,8 +86,9 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 # 平行越权
 - 资料信息和当前登录绑定
 
-
-
+# 其他
+- kkfileview 组件安装
+- kkfileview源码集成和改造
 
 
 
