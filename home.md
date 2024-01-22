@@ -2,10 +2,10 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2023-12-12T05:56:11.617Z
+date: 2024-01-22T05:36:23.557Z
 tags: nav
 editor: markdown
-dateCreated: 2023-08-15T02:18:55.129Z
+dateCreated: 2024-01-18T01:55:42.793Z
 ---
 
 # [docsify](https://docsify.js.org/#/zh-cn/)和wiki共用首页
@@ -33,6 +33,8 @@ dateCreated: 2023-08-15T02:18:55.129Z
   - [004-mysql主从备份](/mine-linux/004-mysql-master-slave)
   - [005-购买京东云服务器](/mine-linux/05-购买京东云服务器)
   - [006-安装wikijs](/mine-linux/006-intsall-wikijs)
+  - [007-scp-fetch-file](/mine-linux/007-scp-fetch-file)
+  - [008-Disk_partition_mounting_and_LVM](/mine-linux/008-Disk_partition_mounting_and_LVM)
 
 
 
