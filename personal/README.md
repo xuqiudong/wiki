@@ -2,13 +2,15 @@
 title: README
 description: 
 published: true
-date: 2023-12-07T03:05:55.783Z
+date: 2024-01-23T07:38:09.637Z
 tags: 
 editor: markdown
-dateCreated: 2023-08-15T02:00:20.017Z
+dateCreated: 2024-01-18T01:57:36.902Z
 ---
 
 # 个人相关
+
+[我的常用软件](/personal/common-software)
 
 ##  [学习经历](/personal/education/README)
 
