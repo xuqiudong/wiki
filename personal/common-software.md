@@ -2,8 +2,8 @@
 title: 我的常用软件
 description: 记录一些常用的软件
 published: true
-date: 2024-01-23T07:37:05.897Z
-tags: software, personal
+date: 2024-01-23T07:39:03.120Z
+tags: personal, software
 editor: markdown
 dateCreated: 2024-01-23T07:37:05.897Z
 ---
@@ -48,6 +48,7 @@ dateCreated: 2024-01-23T07:37:05.897Z
 34. nginx
 35. ElasticSearch
 36. tomcat
+37. **mobaxterm**:  ssh
 
 
 
