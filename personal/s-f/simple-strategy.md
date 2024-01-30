@@ -2,7 +2,7 @@
 title: S&F简单攻略
 description: shakes and fidget 简单攻略
 published: true
-date: 2024-01-30T05:40:36.815Z
+date: 2024-01-30T06:16:55.587Z
 tags: game, s&f
 editor: markdown
 dateCreated: 2024-01-30T05:30:37.266Z
@@ -10,6 +10,7 @@ dateCreated: 2024-01-30T05:30:37.266Z
 
 # S&F简单攻略
 > 希望小伙伴们有新的发现，可以告知我，让我记录下来，方便大家传阅。
+> 或者点击右上角登录(账号: shakes@qq.com/密码：12345678)，然后在页面以评论的方式添加新的攻略
 
 **本wiki内部**：
 - [S&F初期指南书中文](/personal/s-f/learningsf)
