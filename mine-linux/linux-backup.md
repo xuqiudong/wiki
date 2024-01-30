@@ -2,7 +2,7 @@
 title: 我的linux文件备份
 description: 备份linux上的文件
 published: true
-date: 2024-01-30T09:25:43.957Z
+date: 2024-01-30T09:28:07.285Z
 tags: api, mine-linux
 editor: markdown
 dateCreated: 2024-01-30T09:25:43.957Z
@@ -26,8 +26,10 @@ dateCreated: 2024-01-30T09:25:43.957Z
  
 ## 上传到哪里
 1. 坚果云： 没找到合适的API
-2. 百度云： 需手写上传， 暂定
+2. 百度云： 需手写上传， 暂定 [百度云盘API](https://pan.baidu.com/union/doc/olkuuy5kz)
 
 ## 如何上传
 1. 编写上传到百度的相关项目（记录上传日志和文件类型）
 2. 定时备份相关文件到指定的目录，然后1提供调用上传接口
+
+
