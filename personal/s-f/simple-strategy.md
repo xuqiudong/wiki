@@ -2,7 +2,7 @@
 title: S&F简单攻略
 description: shakes and fidget 简单攻略
 published: true
-date: 2024-01-30T07:08:55.661Z
+date: 2024-02-01T00:56:24.797Z
 tags: game, s&f
 editor: markdown
 dateCreated: 2024-01-30T05:30:37.266Z
@@ -19,7 +19,8 @@ dateCreated: 2024-01-30T05:30:37.266Z
 **gitee上的**：
 - [攻略](https://xuqiudong.gitee.io/personal/#/game/shakes/gonglue)
 
-
+## 福利
+- 每周一个蘑菇： [home.sfgame.net](https://home.sfgame.net/#/stats/rankings/heroes/)
 ## 厕所：
 
 史诗50积分 宝石30积分  普通道具25积分 药水和材料10积分
