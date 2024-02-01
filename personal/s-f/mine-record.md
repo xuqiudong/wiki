@@ -2,7 +2,7 @@
 title: 我的shakes & fidget
 description: 我的S&F记录
 published: true
-date: 2024-02-01T07:56:31.792Z
+date: 2024-02-01T07:58:44.076Z
 tags: game, s&f
 editor: markdown
 dateCreated: 2024-02-01T07:15:13.345Z
@@ -10,9 +10,13 @@ dateCreated: 2024-02-01T07:15:13.345Z
 
 > last update time : 2024-02-01
 ## 基本信息 
+- 服务器： 39
 - 角色：  恶魔猎人 
 - 等级：  480
-- 服务器： 39
+- 荣誉：33.4w + 
+- 荣誉录：87/104
+- 沙漏： 6900+
+
 - **人物属性**
  
 
