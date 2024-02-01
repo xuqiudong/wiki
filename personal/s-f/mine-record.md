@@ -2,13 +2,15 @@
 title: 我的shakes & fidget
 description: 我的S&F记录
 published: true
-date: 2024-02-01T07:58:44.076Z
+date: 2024-02-01T08:03:12.749Z
 tags: game, s&f
 editor: markdown
 dateCreated: 2024-02-01T07:15:13.345Z
 ---
 
+[ << 返回攻略](/personal/s-f/simple-strategy)
 > last update time : 2024-02-01
+
 ## 基本信息 
 - 服务器： 39
 - 角色：  恶魔猎人 
