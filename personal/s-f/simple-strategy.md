@@ -2,7 +2,7 @@
 title: S&F简单攻略
 description: shakes and fidget 简单攻略
 published: true
-date: 2024-02-01T00:56:24.797Z
+date: 2024-02-01T01:03:53.846Z
 tags: game, s&f
 editor: markdown
 dateCreated: 2024-01-30T05:30:37.266Z
@@ -26,6 +26,7 @@ dateCreated: 2024-01-30T05:30:37.266Z
 史诗50积分 宝石30积分  普通道具25积分 药水和材料10积分
 
 ## 模拟器：
+[攻略：S&F number13](https://en.number13.de/tag/shakes-and-fidget/)
 
 https://sftools.mar21.eu 用这个网站找地牢模拟胜率，旁边有人物属性表，可以自己输入数值100到1000之间看胜率提高多少，如果提高不明显就是装备武器属性不行或符文不好，级别卡了，不过碰到胜率只有0.0几的，就靠次数推一下
 
