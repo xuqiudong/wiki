@@ -2,7 +2,7 @@
 title: 我的linux文件备份
 description: 备份linux上的文件
 published: true
-date: 2024-01-30T09:55:42.795Z
+date: 2024-02-02T09:09:57.111Z
 tags: api, mine-linux
 editor: markdown
 dateCreated: 2024-01-30T09:25:43.957Z
@@ -32,6 +32,17 @@ dateCreated: 2024-01-30T09:25:43.957Z
 1. 编写上传到百度的相关项目（记录上传日志和文件类型）
 2. 定时备份相关文件到指定的目录，然后1提供调用上传接口
 
+
+## 编码
+### 备份类别
+- 数据库自动备份
+> 1. 增量备份 脚本定时备份数据库数据，然后调用接口 上传到百度
+> 2. 相对目录：/backup/mysql/date-database.sql ；date-datascheme.sql
+
+### 文件夹备份
+- 配置指定的文件夹，
+> 1. 脚本定时打包为zip 然后调用接口上传到百度，然后删除zip
+> 2. 相对目录 /backup/xxcategory/date-categoryName.zip
 
 [通过接口上传文件到百度网盘](https://xie.infoq.cn/article/989ba52abf905fdabc99fe340)
 
