@@ -2,7 +2,7 @@
 title: 基于redisson的串行化请求切面
 description: 基于redisson的串行化请求切面
 published: true
-date: 2024-02-04T08:13:46.139Z
+date: 2024-02-04T08:24:17.450Z
 tags: coding, development
 editor: markdown
 dateCreated: 2024-02-04T08:13:46.139Z
@@ -55,8 +55,24 @@ public @interface SerialRequest {
 
 ```
 
-### 切面处理类
-> 这是
+### 切面处理类 SerialRequestAdvice
+1. 此切面可以看成是在方法开始前加锁，方法结束后解锁，所以是一个环绕通知，所以实现`org.aopalliance.intercept.MethodInterceptor`接口。
+   - 前置通知：`org.springframework.aop.MethodBeforeAdvice`
+   - 后置通知：`org.springframework.aop.AfterReturningAdvice`
+   - 异常通知：`org.springframework.aop.ThrowsAdvice`
+2. 通过自定义注解，以及spring的SPEL获取方法参数中对应参数的值
+		- 注意此处需要获取编译后的方法参数名称，需要需要注意配置`maven-compiler-plugin`开启此特性(springboot中应该默认启用了此特性)
+    ```xml
+		<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+        <compilerArgs>
+            <arg>-parameters</arg>
+        </compilerArgs>
+      </configuration>
+   </plugin>
+    ```
 ```java
 /**
  * 描述: 通过分布式锁串行化请求切面，根据请求中的业务标识添加锁
