@@ -1,14 +1,14 @@
 ---
-title: 基于redisson的串行化请求切面
-description: 基于redisson的串行化请求切面
+title:  基于redisson的可动态定制切点的串行化请求切面
+description:  基于redisson的可动态定制切点的串行化请求切面
 published: true
-date: 2024-02-04T08:51:26.923Z
+date: 2024-02-04T08:54:46.796Z
 tags: coding, development
 editor: markdown
 dateCreated: 2024-02-04T08:13:46.139Z
 ---
 
-# 基于redisson的串行化请求切面
+#  基于redisson的可动态定制切点的串行化请求切面
 
 ## 应用场景
 1. 某些方法/请求需要串行化执行。比如针对某个资源(如用户)，不能被同时编辑
