@@ -2,7 +2,7 @@
 title: S&F简单攻略
 description: shakes and fidget 简单攻略
 published: true
-date: 2024-02-01T07:49:32.777Z
+date: 2024-02-04T07:27:17.392Z
 tags: game, s&f
 editor: markdown
 dateCreated: 2024-01-30T05:30:37.266Z
@@ -15,7 +15,7 @@ dateCreated: 2024-01-30T05:30:37.266Z
 **本wiki内部导航**：
 - [S&F初期指南书中文](/personal/s-f/learningsf)
 - [S&F初期指南书英文](/personal/s-f/learningsf_en)
-- [我的角色记录](/personal/s-f/mine-record)
+- [【我的角色记录 →→】](/personal/s-f/mine-record)
  
 
 ## 福利
