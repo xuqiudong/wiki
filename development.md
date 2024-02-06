@@ -1,8 +1,8 @@
 ---
-title: 软件开发INDEX
+title: development
 description: 软件开发，学习，问题记录等
 published: true
-date: 2024-02-06T06:33:05.339Z
+date: 2024-02-06T06:37:43.595Z
 tags: development
 editor: markdown
 dateCreated: 2024-01-18T01:55:51.791Z
