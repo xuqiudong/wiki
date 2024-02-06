@@ -2,10 +2,10 @@
 title: 软件开发INDEX
 description: 软件开发，学习，问题记录等
 published: true
-date: 2023-12-08T09:25:26.299Z
+date: 2024-02-06T06:33:05.339Z
 tags: development
 editor: markdown
-dateCreated: 2022-07-22T01:33:01.097Z
+dateCreated: 2024-01-18T01:55:51.791Z
 ---
 
 # 软件开发
@@ -23,6 +23,8 @@ dateCreated: 2022-07-22T01:33:01.097Z
 
 ### [springboot随手记](/development/note/springboot)
 001. springboot定制化tomcat参数
+
+[logback格式随手记](/development/note/logback)
 
 
 ## [常见开发问题](/development/interview)
