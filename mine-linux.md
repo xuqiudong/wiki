@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-01-19T09:18:55.085Z
+date: 2024-02-07T06:21:21.784Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -57,4 +57,9 @@ dateCreated: 2024-01-18T01:57:32.119Z
 5. 附件：https://attachment.xuqiudong.cn:88
 6. 后台：https://console.xuqiudong.cn:88
 7. 在线日志查看：https://readlog.xuqiudong.cn:88
+
+----
+购机选项：
+- 炙影Firebat 12代N100-Intel酷睿n100迷你主机
+- N5105
 
