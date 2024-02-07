@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2024-01-22T05:36:23.557Z
+date: 2024-02-07T01:39:17.680Z
 tags: nav
 editor: markdown
 dateCreated: 2024-01-18T01:55:42.793Z
@@ -22,7 +22,7 @@ dateCreated: 2024-01-18T01:55:42.793Z
 
 
 # wiki内导航 ↓↓↓
-# [我的linux](/mine-linux/README)
+# [我的linux](/mine-linux)
 
 `自己买了台迷你电脑当服务器，记录一下事项。`
   
@@ -38,7 +38,7 @@ dateCreated: 2024-01-18T01:55:42.793Z
 
 
 
-# [开发](/development/README)
+# [开发](/development)
 
 ` 开发上的一些记录，如学习和debug等。`
 
@@ -64,7 +64,7 @@ dateCreated: 2024-01-18T01:55:42.793Z
 
 
 
-#  [一些项目说明和api](/mine-api/README)
+#  [一些项目说明和api](/mine-api)
 
 `  一些项目说明和api`
 
@@ -73,7 +73,7 @@ dateCreated: 2024-01-18T01:55:42.793Z
 
 
   
-# [多多小叙事](/duoduo/INDEX)
+# [多多小叙事](/duoduo)
 
 - 多多出行记
 
