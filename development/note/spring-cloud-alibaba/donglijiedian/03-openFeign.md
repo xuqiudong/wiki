@@ -2,13 +2,13 @@
 title: 【springCloudAlibaba-学习笔记】03-openFeign
 description: 【springCloudAlibaba-学习笔记】03-openFeign
 published: true
-date: 2024-02-07T08:58:14.369Z
+date: 2024-02-07T09:05:19.147Z
 tags: springcloud alibaba, study
 editor: markdown
 dateCreated: 2024-02-07T08:58:14.369Z
 ---
 
-## 004 openFeign
+## 03-openFeign
 > springCloudAlibaba-学习笔记
 
 [039-OpenFeign概述](https://www.bilibili.com/video/BV1VW4y1o7n5/?p=39)
