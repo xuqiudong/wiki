@@ -2,7 +2,7 @@
 title: 【mybatis随手记】-获取Mapper接口上的泛型
 description: 获取Mapper接口上的泛型
 published: true
-date: 2024-02-07T09:25:07.859Z
+date: 2024-02-07T09:29:02.079Z
 tags: mybatis, note
 editor: markdown
 dateCreated: 2024-01-18T02:00:38.857Z
@@ -25,12 +25,12 @@ public interface BaseMapper<T> {
 }
 ```
 
-2. 在运行时时候，期望通过Model class调用mapper的一些通用方法
+2. 在运行时时候，期望通过Model class(也即接口上的泛型T)调用mapper的一些通用方法
 3. 所以需要在运行时候获取Mapper接口上的泛型类型，反向获取到Mapper
 
 ## 实现代码
 1. 通过spring注入全部的BaseMapper的子接口列表
-2. 获取接口上的泛型，放如Map中，key为Model class，value为mapper
+2. 获取接口上的泛型，放入Map中，key为Model class，value为mapper
 3. 注意事项：
   - 3.1 注入spring中的Mapper，本质上为一个MapperProxy，而不是我们的原始Mapper
   - 3.2 MapperProxy上的泛型`<T> `才是我们真正的Mapper接口，
