@@ -1,8 +1,8 @@
 ---
-title: README
+title: personal
 description: 
 published: true
-date: 2024-01-23T07:38:09.637Z
+date: 2024-02-18T09:58:19.583Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-18T01:57:36.902Z
@@ -25,6 +25,12 @@ dateCreated: 2024-01-18T01:57:36.902Z
   - [软考案例分析随手记](/personal/education/software-exam/case-analysis-notes)
   - [thesis-preparation](/personal/education/software-exam/thesis-preparation)
   - [软考专业英语试题](/personal/education/software-exam/eglish)
+  
+  
+## [English](/personal/english)  
+- 单词
+- 语法
+- 背诵
   
 ## 娱乐
 
