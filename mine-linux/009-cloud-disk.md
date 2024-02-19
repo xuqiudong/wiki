@@ -2,14 +2,14 @@
 title: 009-网盘选择
 description: 存储一些照片或者文档的图片
 published: true
-date: 2024-02-19T07:31:05.017Z
+date: 2024-02-19T07:33:29.259Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-02-19T07:16:19.101Z
 ---
 
 # 我的网盘选择
-
+> 考虑使用filerun，然后客户端使用nextcloud的客户端去同步
 
 ## 需求
 
@@ -20,7 +20,7 @@ dateCreated: 2024-02-19T07:16:19.101Z
 - 存放一些照片，比如给多多拍的照片，最好能多端同步的，能被外部引用的
 - 存放一些其他的文档
 - 硬件要求低一些
-
+- 功能简洁一些
 ## 可选网盘
 - 参考：[filerun　搭建和使用　以及常见问题](https://dev.leiyanhui.com/nas/filerun-install/)
 - [fileRun、NextCloud、ownCloud、Seafile、CloudReve、可道云6款私有网盘程序体验_](https://www.bilibili.com/video/BV1vD4y1e78K)
