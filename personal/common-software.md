@@ -2,7 +2,7 @@
 title: 我的常用软件
 description: 记录一些常用的软件
 published: true
-date: 2024-02-06T05:27:13.454Z
+date: 2024-02-26T07:13:51.525Z
 tags: personal, software
 editor: markdown
 dateCreated: 2024-01-23T07:37:05.897Z
@@ -51,6 +51,8 @@ dateCreated: 2024-01-23T07:37:05.897Z
 37. **mobaxterm**:  ssh
 38. **TrafficMonitor**: 内存 cpu使用率监控
 39. switchHosts： github  host
+40. IKUUU  +  Proxy SwitchyOmega  + gfwlist
+
 
 
 
