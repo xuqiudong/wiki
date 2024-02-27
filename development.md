@@ -2,7 +2,7 @@
 title: development
 description: 软件开发，学习，问题记录等
 published: true
-date: 2024-02-07T08:46:45.636Z
+date: 2024-02-27T09:22:39.335Z
 tags: development
 editor: markdown
 dateCreated: 2024-01-18T01:55:51.791Z
@@ -31,7 +31,7 @@ dateCreated: 2024-01-18T01:55:51.791Z
 
  
 
-## [程序员学习笔记](/development/study-notes)
+## [程序员学习笔记](/development/notes)
 
 ### springcloud alibaba
 #### 动力节点
