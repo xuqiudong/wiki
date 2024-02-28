@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-02-07T06:21:21.784Z
+date: 2024-02-28T02:11:46.465Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -39,14 +39,13 @@ dateCreated: 2024-01-18T01:57:32.119Z
 ### 申请了freedns的免费二级域名xuqiudong.us.to
 当前路由器支持对[freedns](xuqiudong.tpddns.cn)的ddns，另外也写了定时器定时更新ip解析
 1. 空nginx：  http://xuqiudong.us.to:81/
-2. portainer: http://xuqiudong.us.to:82/  
-  - nginx代理了是9000上的端口
+2. portainer: http://xuqiudong.us.to:9000/  
+  - 准备使用nginx：82代理了是9000上的端口
   - portainer 运行在docker上
-3. wiki.js：   http://xuqiudong.us.to:3000/  
-4. nextcloud 个人云盘，同步盘 http://xuqiudong.us.to:83/   or https://home.xuqiudong.cn:88/ 
- - 基于php 运行在7000端口，被nginx反向代理 
+3. wiki.js：   http://xuqiudong.us.to:3000/ ← https://wiki.xuqiudong.cn/
+4. filebrowser 个人云盘，同步盘 http://xuqiudong.us.to:40002/
 
-## xuqiudong.cn域名和子域名的安排
+## ~~xuqiudong.cn域名和子域名的安排~~
 > 主要是因为电信不开放 80和443端口。 如果后期不购买云服务器的话，就要带端口访问了。 暂时通过云服务器上nginx反向代理到" xuqiudong.us.to :port。"
 
 
