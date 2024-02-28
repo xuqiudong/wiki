@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-02-28T02:11:46.465Z
+date: 2024-02-28T02:14:27.610Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -25,14 +25,6 @@ dateCreated: 2024-01-18T01:57:32.119Z
 ## 服务地址
 
 ### ~~基于tplink提供的免费ddns地址：xuqiudong.tpddns.cn~~
-
-1. 空nginx：  http://xuqiudong.tpddns.cn:81/
-2. portainer: http://xuqiudong.tpddns.cn:82/  
-  - nginx代理了是9000上的端口
-  - portainer 运行在docker上
-3. wiki.js：   http://xuqiudong.tpddns.cn:3000/  
-4. nextcloud 个人云盘，同步盘 http://xuqiudong.tpddns.cn:83/  
- - 基于php 运行在7000端口，被nginx反向代理 
 
 ## 更换了路由器不再是tplink，因此xuqiudong.tpddns.cn失效
 > 2022-08-01
