@@ -2,28 +2,28 @@
 title: 007-scp从云主机拉取ssl证书到物理linux主机
 description: 通过scp从云主机拉取ssl证书到物理linux主机
 published: true
-date: 2023-12-07T07:36:21.262Z
+date: 2024-02-29T07:42:53.633Z
 tags: 
 editor: markdown
-dateCreated: 2023-12-07T07:29:07.845Z
+dateCreated: 2024-01-18T01:57:22.425Z
 ---
 
 # scp从云主机拉取ssl证书到物理linux主机
 
 ### 背景
 
-    主域名是解析到云主机上的，然后反向代理到我的物理linux小主机。但这样是会消耗流量的，某些资源，比如图片希望放在linux主机上，省却流量消耗。
+  主域名是解析到云主机上的，然后反向代理到我的物理linux小主机。但这样是会消耗流量的，某些资源，比如图片希望放在linux主机上，省却流量消耗。
     
-    比如当前wiki.xuqiudong.cn解析的地址为云主机，然后代理到物理linux小主机。
+  比如当前wiki.xuqiudong.cn解析的地址为云主机，然后代理到物理linux小主机。
     
-    wiki上的文章我一般是使用typora本地编辑的。文章中插入的图片我是通过Picgo插件上传到我的linux主机上部署的nexctloud的，默认使用的是ddns域名，没有配置ssl。
+  wiki上的文章我一般是使用typora本地编辑的。文章中插入的图片我是通过Picgo插件上传到我的linux主机上部署的nexctloud的，默认使用的是ddns域名，没有配置ssl。
     
-    这个时候就产生了一个问题，wiki是https，文章里面的图片链接为http，这种情况下浏览器是禁止的。
-    所以，我重新解析了一个域名到linux主机，映射到nextcloud，并把它配置为https，这个时候就需要SSL证书了。
+  这个时候就产生了一个问题，wiki是https，文章里面的图片链接为http，这种情况下浏览器是禁止的。
+  所以，我重新解析了一个域名到linux主机，映射到nextcloud，并把它配置为https，这个时候就需要SSL证书了。
     
-    我的云主机上的SSL证书是用过[letsencrypt](https://letsencrypt.org/zh-cn/)免费申请的，通过acme自动化做一些校验和自动延长的的处理。
+  我的云主机上的SSL证书是用过[letsencrypt](https://letsencrypt.org/zh-cn/)免费申请的，通过acme自动化做一些校验和自动延长的的处理。
     
-    而我的linux主机用于家用，是默认不开通80和443端口的，处理一些验证和自动化脚本有点费劲。所以就考虑在云主机上通配符泛域名ssl证书，然后linux主机上定时拉取过来。
+  而我的linux主机用于家用，是默认不开通80和443端口的，处理一些验证和自动化脚本有点费劲。所以就考虑在云主机上通配符泛域名ssl证书，然后linux主机上定时拉取过来。
    
    
 ### 公钥认证
