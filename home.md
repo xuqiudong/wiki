@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2024-02-07T01:39:17.680Z
+date: 2024-03-05T06:48:04.250Z
 tags: nav
 editor: markdown
 dateCreated: 2024-01-18T01:55:42.793Z
@@ -108,7 +108,7 @@ dateCreated: 2024-01-18T01:55:42.793Z
 
 `  服务器上起的服务多了，难免忘掉，写个导航页记录一下。`
 
-- [~~我自己导航我自己~~](https://nav.xuqiudong.cn:88)
+- [我自己导航我自己](https://nav.xuqiudong.cn)
 
 - https://freedns.afraid.org/  xuqiudong
 
