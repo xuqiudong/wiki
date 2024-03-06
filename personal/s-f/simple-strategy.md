@@ -2,7 +2,7 @@
 title: S&F简单攻略
 description: shakes and fidget 简单攻略
 published: true
-date: 2024-02-04T07:27:17.392Z
+date: 2024-03-06T06:57:50.339Z
 tags: game, s&f
 editor: markdown
 dateCreated: 2024-01-30T05:30:37.266Z
@@ -20,6 +20,7 @@ dateCreated: 2024-01-30T05:30:37.266Z
 
 ## 福利
 - 每周一个蘑菇： [home.sfgame.net](https://home.sfgame.net/#/stats/rankings/heroes/)
+- 我的角色id `tQDwKW2k#413`
 ## 厕所：
 
 史诗50积分 宝石30积分  普通道具25积分 药水和材料10积分
