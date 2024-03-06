@@ -2,7 +2,7 @@
 title: development
 description: 软件开发，学习，问题记录等
 published: true
-date: 2024-02-27T09:22:39.335Z
+date: 2024-03-06T01:15:59.073Z
 tags: development
 editor: markdown
 dateCreated: 2024-01-18T01:55:51.791Z
@@ -35,9 +35,7 @@ dateCreated: 2024-01-18T01:55:51.791Z
 
 ### springcloud alibaba
 #### 动力节点
-- [000-动力节点springcloud alibaba入门](/development/note/spring-cloud-alibaba/donglijiedian/index)
-- [001-nacos-注册服务与发现](/development/note/spring-cloud-alibaba/donglijiedian/001-nacos-discovery)
-- [03-nacos-config](/development/note/spring-cloud-alibaba/donglijiedian/03-nacos-config)
+ 
 
 **TODO:** 
 - kafka
