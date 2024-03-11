@@ -1,11 +1,11 @@
 ---
-title: 动态域名解析ddns
+title: 003-动态域名解析ddns
 description: 我的linux设置ddns
 published: true
-date: 2022-08-08T03:06:40.092Z
+date: 2024-03-11T02:31:22.789Z
 tags: mine-linux
 editor: markdown
-dateCreated: 2022-08-01T01:42:25.846Z
+dateCreated: 2024-01-18T01:57:04.419Z
 ---
 
 ### 为什么需要动态域名解析
