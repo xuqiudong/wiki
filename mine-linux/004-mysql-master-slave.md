@@ -1,11 +1,11 @@
 ---
-title: mysql8.0 主从备份(ubutu22.04到centos7.9)
+title: 004-mysql8.0 主从备份(ubutu22.04到centos7.9)
 description: mysql8.0 主从备份(ubutu22.04到centos7.9)
 published: true
-date: 2022-09-02T06:04:44.586Z
-tags: mine, mysql
+date: 2024-03-11T02:33:52.496Z
+tags: mine-linux, mysql
 editor: markdown
-dateCreated: 2022-09-02T05:54:48.387Z
+dateCreated: 2024-01-18T01:57:08.842Z
 ---
 
 ### 缘由
