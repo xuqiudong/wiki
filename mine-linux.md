@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-03-06T02:01:12.635Z
+date: 2024-03-11T02:28:39.565Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -21,6 +21,8 @@ dateCreated: 2024-01-18T01:57:32.119Z
 - [006-安装wikijs](/mine-linux/006-intsall-wikijs)
 - [007-scp从云主机拉取ssl证书到物理linux主机](/mine-linux/007-scp-fetch-file)
 - [008-Linux磁盘分区挂载与LVM](/mine-linux/008-Disk_partition_mounting_and_LVM)
+- [009-cloud-disk](/mine-linux/009-cloud-disk)
+- [010-install-smaba](/mine-linux/010-install-smaba)
 
 ## 服务地址
 
