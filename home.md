@@ -2,7 +2,7 @@
 title: 首页
 description: 这是我的第一个wiki文件。 用以存储本人的一些知识梳理，学习过程等。
 published: true
-date: 2024-03-05T06:48:04.250Z
+date: 2024-03-13T02:36:12.174Z
 tags: nav
 editor: markdown
 dateCreated: 2024-01-18T01:55:42.793Z
@@ -21,7 +21,7 @@ dateCreated: 2024-01-18T01:55:42.793Z
   - [github(网络不稳定，用的少)](https://github.com/xuqiudong/)
 
 
-# wiki内导航 ↓↓↓
+# **wiki内导航 start**
 # [我的linux](/mine-linux)
 
 `自己买了台迷你电脑当服务器，记录一下事项。`
@@ -103,7 +103,7 @@ dateCreated: 2024-01-18T01:55:42.793Z
 
 - [todo_and_done](/personal/todo_and_done)
 
-# wiki内导航 ↑↑↑
+# **wiki内导航 end**
 # 我的导航
 
 `  服务器上起的服务多了，难免忘掉，写个导航页记录一下。`
