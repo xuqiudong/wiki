@@ -2,7 +2,7 @@
 title: 多多小叙事
 description: 多多，爸爸妈妈永远爱你
 published: true
-date: 2024-03-10T08:00:03.955Z
+date: 2024-03-18T02:21:46.331Z
 tags: 多多, 小叙事
 editor: markdown
 dateCreated: 2024-01-18T01:56:14.063Z
@@ -14,6 +14,7 @@ dateCreated: 2024-01-18T01:56:14.063Z
 - [小恙记](/duoduo/ailment)
 - [长成记](/duoduo/growth_record)
 - [study-preparation](/duoduo/study-preparation)
+- [TODO:小程序](/duoduo/mini-program)
 ----
 TODO
 - 简易手工
