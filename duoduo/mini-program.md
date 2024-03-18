@@ -2,7 +2,7 @@
 title: 多多小叙事-小程序
 description: 开发个记录多多成长的简单的小程序
 published: true
-date: 2024-03-18T02:24:45.824Z
+date: 2024-03-18T02:26:04.831Z
 tags: duoduo
 editor: markdown
 dateCreated: 2024-03-18T02:20:46.263Z
@@ -32,3 +32,12 @@ dateCreated: 2024-03-18T02:20:46.263Z
 - 美食记
 - 学习记
 - 长成记
+- 出行记
+
+ **记录**
+ - 时间
+ - 内容
+ - 图标
+ - 图片 多张
+ - 视频
+ 
