@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-03-11T02:28:39.565Z
+date: 2024-03-25T00:43:18.871Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -55,4 +55,9 @@ dateCreated: 2024-01-18T01:57:32.119Z
 购机选项：
 - 炙影Firebat 12代N100-Intel酷睿n100迷你主机
 - N5105
+----
+port foeward records
 
+- 22:
+- 81:router
+- 9876:samba  LAN sharing
