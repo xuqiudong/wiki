@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-03-25T00:43:18.871Z
+date: 2024-03-25T01:30:28.724Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -57,7 +57,46 @@ dateCreated: 2024-01-18T01:57:32.119Z
 - N5105
 ----
 port foeward records
+> 3306                       ALLOW       Anywhere
+82                         ALLOW       Anywhere
+3000                       ALLOW       Anywhere
+10084                      ALLOW       Anywhere
+10081                      ALLOW       Anywhere
+10083                      ALLOW       Anywhere
+9876                       ALLOW       Anywhere
+81                         ALLOW       Anywhere
+10911                      ALLOW       Anywhere
+2375                       DENY        Anywhere
+9000                       ALLOW       Anywhere
+40001                      ALLOW       Anywhere
+40002                      ALLOW       Anywhere
+83                         ALLOW       Anywhere
+883                        ALLOW       Anywhere
+445           
 
 - 22:
 - 81:router
-- 9876:samba  LAN sharing
+- 82: default nginx
+- 9876/445:samba  LAN sharing
+- 883/ 40002 filebrower    nginx/itself
+- 83： none (filebrower)
+- 3000: wiki
+- 3306
+- 9000 docker
+- 10081: sso
+- 10083: console
+- 10084: blog
+- 2375: docker  closed
+> 22
+80-88
+10081-10181
+3306
+3000
+5200-5300alibaba
+9200
+9876
+10911
+4xxxx docker
+  
+
+
