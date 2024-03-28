@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-03-25T01:30:28.724Z
+date: 2024-03-28T06:03:29.903Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -39,6 +39,7 @@ dateCreated: 2024-01-18T01:57:32.119Z
 3. wiki.js：   http://xuqiudong.us.to:3000/ ← https://wiki.xuqiudong.cn/
 4. filebrowser 个人云盘，同步盘 http://xuqiudong.us.to:40002/
 
+[frp内网穿透，唯独tp-link品牌的路由器无法打开路由管理界面](https://www.right.com.cn/forum/thread-1127616-1-1.html)
 ## ~~xuqiudong.cn域名和子域名的安排~~
 > 主要是因为电信不开放 80和443端口。 如果后期不购买云服务器的话，就要带端口访问了。 暂时通过云服务器上nginx反向代理到" xuqiudong.us.to :port。"
 
@@ -56,37 +57,25 @@ dateCreated: 2024-01-18T01:57:32.119Z
 - 炙影Firebat 12代N100-Intel酷睿n100迷你主机
 - N5105
 ----
-port foeward records
-> 3306                       ALLOW       Anywhere
-82                         ALLOW       Anywhere
-3000                       ALLOW       Anywhere
-10084                      ALLOW       Anywhere
-10081                      ALLOW       Anywhere
-10083                      ALLOW       Anywhere
-9876                       ALLOW       Anywhere
-81                         ALLOW       Anywhere
-10911                      ALLOW       Anywhere
-2375                       DENY        Anywhere
-9000                       ALLOW       Anywhere
-40001                      ALLOW       Anywhere
-40002                      ALLOW       Anywhere
-83                         ALLOW       Anywhere
-883                        ALLOW       Anywhere
-445           
+         
 
 - 22:
 - 81:router
 - 82: default nginx
-- 9876/445:samba  LAN sharing
-- 883/ 40002 filebrower    nginx/itself
 - 83： none (filebrower)
+
+- 883/ 40002 filebrower    nginx/itself
+- 2375: docker  closed
 - 3000: wiki
 - 3306
 - 9000 docker
+- 9876/445:samba  LAN sharing
 - 10081: sso
 - 10083: console
 - 10084: blog
-- 2375: docker  closed
+- 40002: filebrower
+- 40004: jenkins
+
 > 22
 80-88
 10081-10181
