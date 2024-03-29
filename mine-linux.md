@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-03-28T06:03:29.903Z
+date: 2024-03-29T05:16:53.244Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -78,7 +78,8 @@ dateCreated: 2024-01-18T01:57:32.119Z
 
 > 22
 80-88
-10081-10181
+10081 - 10999
+21000 - 21999
 3306
 3000
 5200-5300alibaba
