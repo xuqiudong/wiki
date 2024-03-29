@@ -2,7 +2,7 @@
 title: 我的linux
 description: 家庭版本的迷你主机充当个人的linux服务器
 published: true
-date: 2024-03-29T05:41:59.033Z
+date: 2024-03-29T09:54:41.449Z
 tags: mine-linux
 editor: markdown
 dateCreated: 2024-01-18T01:57:32.119Z
@@ -75,7 +75,7 @@ dateCreated: 2024-01-18T01:57:32.119Z
 - 10084: blog
 - 21001： jenkins
 - 40002: filebrower
-- 40004: jenkins
+- ~~40004: jenkins~~
 
 
 > 22
