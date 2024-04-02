@@ -2,10 +2,10 @@
 title: springboot随手记
 description: 记录开发中遇到的或着解决的一些小问题，留用
 published: true
-date: 2023-09-14T02:55:09.101Z
+date: 2024-04-02T06:14:44.490Z
 tags: development, note
 editor: markdown
-dateCreated: 2023-05-30T08:55:08.671Z
+dateCreated: 2024-01-18T01:58:15.726Z
 ---
 
 # Springboot
@@ -85,3 +85,7 @@ server.tomcat.protocol-header=x-forwarded-proto
 ## 003 注入自身
 1. @EnableAspectJAutoProxy(exposeProxy = true)
 2. AopContext.currentProxy()
+
+## 004 获取ServletContext
+1. 实现ServletContextAware接口
+3. ServletContextAwareProcessor#postProcessBeforeInitialization
